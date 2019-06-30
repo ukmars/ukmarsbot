@@ -7,7 +7,7 @@ Using inexpensive, readily available materials, components and techniques, UKMAR
 Processor power will be provided by the Arduino Nano board becaue it is very cheap and widely available. There is a huge range of sample code available for almost any purpose and support is easily found online. The arduino software can be installed on any computer and is free.
 
 ### Coding
-The Arduino is programmed normallly in C++. For the great majority of users this is the best choice. However, if you need to use other languages, there are choices to suit you. (__None of these have beed tried by UKMARS__)
+The Arduino is programmed normallly in C++. Code is written in a simplified IDE and the programs written there are generally called skethces. They consist usually of a single file, a 'sketch', made up of a number of functions and associated variables. The arduino IDE takes care of turningthe sketch into a complete program and uploading it to the Arduino board. For the great majority of users this is the best choice. However, if you need to use other languages, there are choices to suit you. (__None of these have beed tried by UKMARS__)
 
 * FlashForth http://flashforth.com/ is a Forth stamp system implemented on the Microchip 8-bit PIC18F and 16-bit PIC24, 30, 33 and the Atmel Atmega microcontroller families. See also https://playground.arduino.cc/CommonTopics/ForthOnArduino/ for other options relating to Forth.
 
