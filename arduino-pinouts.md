@@ -118,8 +118,8 @@ That leaves pins 11, 12, A4 and A5. Some kind of user input is desireable and an
  |  A1  |  Wall/Line Sensor                                              |   Y   |
  |  A2  |  Wall/Line Sensor                                              |   Y   |
  |  A3  |  Wall/Line Sensor                                              |   Y   |
- |  A4  |  Sensor?                                                       |   -   |
- |  A5  |  Sensor?                                                       |   -   |
+ |  A4  |  Sensor? I2C SDA?                                              |   -   |
+ |  A5  |  Sensor? I2C SCL?                                              |   -   |
  |  A6  |  User button                                                   |   -   |
  |  A7  |  Battery Voltage monitor                                       |   Y   |
 
@@ -129,8 +129,11 @@ If a builder want to ad a gyro or other IMU, some compromises will be needed. Th
 
 ### I2C
 
-The main advantage of I2C is that only two pins are needed for communication with one or more I2C devices. This makes them very attractive in IO limited systems like this. Users could add several IMUs, displays, LED drivers port expanders or whatever else it desired. the downside is that I2C is not a fast protocol. For the level of performance anticipated from an Arduino robot, this is not likely to be an insurmountable issue although gyros in particular benefit from being read frequently in robots. Using I2C would mean losing two analogue input channels (A4 and A5). These are not currently committed but line follower might be a little more challenging with a maximum of only five analogue inputs.
+The main advantage of I2C is that only two pins are needed for communication with one or more I2C devices. This makes them very attractive in IO limited systems like this. Users could add several IMUs, displays, LED drivers port expanders or whatever else it desired. the downside is that I2C is not a fast protocol. For the level of performance anticipated from an Arduino robot, this is not likely to be an insurmountable issue although gyros in particular benefit from being read frequently in robots. Using I2C would mean losing two analogue input channels (A4 and A5). These are not currently committed but line follower might be a little more challenging with a maximum of only five analogue inputs and that would mean using pin 12 as a button input.
+
+There are several IMU breakout boards communicating over I2C that can be used with the Arduino. This one - [MinIMU-9 V5](http://www.hobbytronics.co.uk/sensors/imu/minimu-9-v5) - includes gyro, accelerometer and compass on one board together with level shifting electronics for use directly with the Arduino.
 
 ### SPI
 
-SPI communications are much faster than I2C and will probably be able to provide data as fast as the user code can request it. It is, however, a very inefficient user of IO pins. A typical SPI device uses at least four pins and each additional device would use another pin for the chip select. Connecting a SPI device to the Arduino Nano would require pins 11, 12, 13 and one other for the chip select. For this application, SPI 
+SPI communications are much faster than I2C and will probably be able to provide data as fast as the user code can request it. It is, however, a very inefficient user of IO pins. A typical SPI device uses at least four pins and each additional device would use another pin for the chip select. Connecting a SPI device to the Arduino Nano would require pins 11, 12, 13 and one other for the chip select. For this application, SPI.
+
