@@ -6,6 +6,8 @@ Using inexpensive, readily available materials, components and techniques, UKMAR
 
 Processor power will be provided by the Arduino Nano board becaue it is very cheap and widely available. There is a huge range of sample code available for almost any purpose and support is easily found online. The arduino software can be installed on any computer and is free.
 
+A proposed pin usage for an Arduino Nano controller can be found in the [docs](docs) folder.
+
 ### Coding
 The Arduino is programmed normallly in C++. Code is written in a simplified IDE and the programs written there are generally called skethces. They consist usually of a single file, a 'sketch', made up of a number of functions and associated variables. The Arduino IDE takes care of turning the sketch into a complete program and uploading it to the Arduino board. because it can run on any of the major pltforms - Windows, Mac and Linux - any user should be able to make use of the Arduino IDE. Where there are restrictions on the installation of software in schools, libraries or borrowed computers, it may be possible to run a portable version of the IDE from a thumb drive ([Portable Arduino IDE](https://www.arduino.cc/en/Guide/PortableIDE)). Normally this would also be restricted by security software though.  For the great majority of users this is the best choice. However, if you need to use other languages, there are choices to suit you. (__None of these have beed tried by UKMARS__)
 
