@@ -26,7 +26,7 @@ There are
 ## Analogue Input
 Up to 8 analogue input channels are availale on pins A0 - A7. By default these have 10 bits of resolution (0..1023) and the analogue reference is 5 Volts. The reference voltage can be changed to 3.3V if necessary.
 
-If not required for analogue inputs pins A0..A5 are available as general purpose digital IO pins. When used as digital pins, A0..A5 may also be referred to as pin numbers 14..19 respectively.
+If not required for analogue inputs, pins A0..A5 are available as general purpose digital IO pins. When used as digital pins, A0..A5 may also be referred to as pin numbers 14..19 respectively.
 
 Pins A4 and A5 have a special purpose use as I2C pins SDA and SCL respectively.
 
