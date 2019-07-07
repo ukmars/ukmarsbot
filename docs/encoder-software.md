@@ -158,3 +158,5 @@ For the Pololu 6 Volt MP gearmotors with 10:1 gear ratio, the encoders generate 
 
 10:1 is a handy reduction ratio because the stock magnetic encoders generate 6 edges per rotation on Channel A. That means that the frequency recorded is the same as the output shaft RPM. The pololu dta indicates 2200 RPM at 6 Volts so that is probably close enough.
 
+There is a separate page all about the [performance tradeoffs](speed-performance.md).
+
