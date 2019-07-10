@@ -1,4 +1,4 @@
-| Main Board| | | | |
+# Main Board
 
 | No| Part name| Description| Suppliers| Part No| Cost each| Optional |
 |---|----------|------------|----------|--------|----------|----------|
@@ -7,7 +7,6 @@
 |2| 15 way socket    | Socket for Nano| Rapid| 19-0086| 16p| Yes
 | | "                | | Ebay| | 16p|
 |2| Motor            | Micro metal gearmotor with extended back shaft <br> 11:1, 20:1, 50:1| Pimoroni| | £5 | No
-| |                  | Also available as 11:1 and 50:1                    |         | |    |
 |1| Encoder pair kit | Magnetic encoder for metal gearmotor <br>| Hobbytronics| 3081      | £6.60 | Yes |
 | |                  | "                                        | RobotShop   | RB-Pol-343| £6.95 | Yes |
 |1| Pair of Wheels   | 67.5mm O wheels                          | Kitronik    | 2593-D    | £2.46 | No  |
