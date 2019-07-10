@@ -12,7 +12,7 @@ Unfortunately, the markup standard on github is a little different from that use
 
 ## An introduction to git
 
-(to be completed)
+Since the project is hosted on github, you might like to have a look at this [Sparkfun Tutorial](https://learn.sparkfun.com/tutorials/using-github)
 
 ## Raising an Issue
 
