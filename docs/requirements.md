@@ -1,6 +1,6 @@
 # UKMARSBOT Specification
 
-* This is an entry level mouse able to be built by adults, students or schoolchildren from readily available parts that are likely to remain available for several years using the provided PCBs with minimal tools and expected skill levels. Some soldering is expected but not of small Surface Mount Devices (SMDs).
+* This is an entry level robot able to be built by adults, students or schoolchildren from readily available parts that are likely to remain available for several years using the provided PCBs with minimal tools and expected skill levels. Some soldering is expected but not of small Surface Mount Devices (SMDs).
 
 * The same PCBs can be populated with minimal parts to enable simple robot competition challenges to be accomplished, or enhanced with additional or different parts to enable more difficult challenges to be met.
 
@@ -16,13 +16,13 @@
 
 * Separate sensors must be able to be easily attached and removed to cope with the requirements of different competition challenges. It would also be advantageous to enable wheels to be swapped for different size ones for different challenges.
 
-* The size of the basic mouse needs to be able to fit and manoeuvre easily within a 16.8 x 16.8cm maze cell. Ideally measuring no more than 85mm wide and 110mm long with rounded corners.
+* The size of the basic robot needs to be able to fit and manoeuvre easily within a 16.8 x 16.8cm maze cell. Ideally measuring no more than 85mm wide and 110mm long with rounded corners. The robot may be wider than these dimensions if wheels with a diameter greater than 32mm are selected.
 
-* The mouse must have multiple mechanical fixing points to allow flexible options for sensors and additional hardware to be securely mounted as well as motor fixing points.
+* The robot must have multiple mechanical fixing points to allow flexible options for sensors and additional hardware to be securely mounted as well as motor fixing points.
 
-* The mouse should be powered by simple rechargeable battery of between 7 and 12 volts requiring no expensive charging equipment. An analogue sensor should be available to monitor the battery voltage. There should be a switch or other means of isolating the battery and a diode for polarity protection.
+* The robot should be powered by simple rechargeable battery of between 7 and 12 volts requiring no expensive charging equipment. An analogue sensor should be available to monitor the battery voltage. There should be a switch or other means of isolating the battery and a diode for polarity protection.
 
-* The mouse should be controlled by a small form factor microcontroller with adequate pins and functionality on the pins to read sensors and control the wheel speeds using PWM. This micro-controller should be supported by an easy to use and free development environment which can easily be installed on a Windows, MAC or Linux PC.
+* The robot should be controlled by a small form factor microcontroller with adequate pins and functionality on the pins to read sensors and control the wheel speeds using PWM. This micro-controller should be supported by an easy to use and free development environment which can easily be installed on a Windows, MAC or Linux PC.
 
 ## Consequences of specifications – design ideas
 
@@ -30,7 +30,7 @@
 
 * Space should be available for extended shaft motor option so that encoders can be added if required. With these extended shaft motors back to back the PCB will be 6.5cm wide. Wheels are 1 cm wide giving a total width of 8.5cm.
 
-* We will need to have a separate plug in board for the wall sensors and one for the line following sensors **Question**: Are we going to provide sensor boards too? I had assumed that we would provide sockets for sensors/sensor boards to connect to on the provided mother board leaving the sensor choice to the builder but thinking about it now if we are going for approachability on the project then providing basic sensor boards for line/drag and maze challenges could be a good idea – it still leaves the option open for someone to build their own sensors
+* We will need to have a separate plug in board for the wall sensors and one for the line following sensors
 
 * Motor driver H bridges could be a chip such as L293D or a plug in board such as the L9110 board. Other choices are available.
 
