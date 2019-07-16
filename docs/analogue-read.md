@@ -12,7 +12,7 @@ So - speeding up the ADC has some drawbacks as far as accuracy and noise are con
 
 ## Crosstalk
 
-When multiple channels are conencted to an ADC and thed read in quick successsion, care must be taken that the various channels do not interfere with each other. This is not just a question of board layout and sources of noise. Each chanel in turn is connected to the same input circuit inside the processor. If the analogue source has a high impedance, the reading can be influenced by the previous channel voltage.
+When multiple channels are connected to an ADC and thed read in quick successsion, care must be taken that the various channels do not interfere with each other. This is not just a question of board layout and sources of noise. Each chanel in turn is connected to the same input circuit inside the processor. If the analogue source has a high impedance, the reading can be influenced by the previous channel voltage.
 
 ## ADCSR - The Analogue Control and Status Register
 
@@ -22,7 +22,7 @@ The bottom three bits of ADCSR, determine the prescaler factor. The time shown i
 
 The variance is calculated over 10000 samples with the analogue input set to as close as possible to 2.5V with a potentiometer. Variance is directly related to the ammount of noise in the result.
 
-The time taken for each call is measured by setting and clearing a port pin by direct port manipulation to reduce verhead as much as possible. The length of the resulting pulse is measured on an oscilloscope.
+The time taken for each call is measured by setting and clearing a port pin by direct port manipulation to reduce overhead as much as possible. The length of the resulting pulse is measured on an oscilloscope.
 
 ## Results
 
