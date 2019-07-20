@@ -32,6 +32,6 @@
 
 * We will need to have a separate plug in board for the wall sensors and one for the line following sensors
 
-* Motor driver H bridges could be a chip such as L293D or a plug in board such as the L9110 board. Other choices are available.
+* Motor driver H bridges could be a chip such as L293D or a plug in board such as the L9110 or TB6612FNG board. Other choices are available.
 
-* The most suitable microcontroller is an Arduino Nano R3 as it has enough IO pins (30) of the right types. It is recommended to be programmed using the standard Arduino IDE to develop code in Sketch. A recommended specification of pin usage will be provided with a sample Arduino Sketch that sets up these pins correctly.
+* The most suitable microcontroller is an Arduino Nano R3 as it has enough IO pins (22) of the right types. It is recommended to be programmed using the standard Arduino IDE to develop code. A recommended specification of pin usage will be provided with a sample Arduino sketches that demonstrate how to set up these pins correctly.
