@@ -7,7 +7,7 @@ This issue of the Contributor Guide relates to the first stage of the project - 
 ## Tools for Contributing
 Suggested improvements, ideas and comments will be submitted and discussed using the __Issues__ function in the GitHub Repository (Repo).
 
-As the project proceeds more of the functions provided by GitHub (creating forks and pull requests) will become relevant as artifacts such as code, pcb designs and other hardware items become available.
+As the project proceeds more of the functions provided by GitHub (creating forks and pull requests) will become relevant as artefacts such as code, pcb designs and other hardware items become available.
 
 At this stage of the project the tool for consultation and general collaboration will be the __Issues__ capability of GitHub.
 ## Contributing to Revision 1 of UKMARSBOT
@@ -21,8 +21,8 @@ Please refer to the project plan for when these focussed feedback periods occur.
 Ideas and suggestions are not limited to these feedback periods, but in the short term the project will be prioritising the relevant suggestions in these periods.
 
 When contributing through raising an __Issue__ please include:
-1. Identification of the phase of the project to which the isssue relates ie Revision1, Revision2 or After Revision 2
-1. Identification of the artifact(s) affected eg Requirements, BOM, Board Design...
+1. Identification of the phase of the project to which the issue relates i.e. Revision1, Revision2 or After Revision 2
+1. Identification of the artefact(s) affected eg Requirements, BOM, Board Design...
 1. Appropriate GitHub __Label__ to characterise the __Issue__
 1. A clear and brief description of the suggested improvement
 
