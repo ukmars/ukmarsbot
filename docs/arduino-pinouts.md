@@ -106,7 +106,7 @@ That leaves pins 11, 12, A4 and A5. Some kind of user input is desireable and an
  |   3  |  Right Encoder Channel A                                       |   Y   |
  |   4  |  Left Encoder Channel B                                        |   -   |
  |   5  |  Right Encoder Channel B                                       |   -   |
- |   6  |  User LED (can be PWM'ed)                                      |   -   |
+ |   6  |  User Button or LED (can be PWM'ed)                            |   -   |
  |   7  |  Left Motor Direction                                          |   -   |
  |   8  |  Right Motor Direction                                         |   -   |
  |   9  |  Left Motor PWM (OC1A)                                         |   -   |
@@ -120,7 +120,7 @@ That leaves pins 11, 12, A4 and A5. Some kind of user input is desireable and an
  |  A3  |  Wall/Line Sensor                                              |   Y   |
  |  A4  |  Sensor? I2C SDA?                                              |   -   |
  |  A5  |  Sensor? I2C SCL?                                              |   -   |
- |  A6  |  User button                                                   |   -   |
+ |  A6  |  Function Select Switches                                      |   -   |
  |  A7  |  Battery Voltage monitor                                       |   Y   |
 
 ## IMU
