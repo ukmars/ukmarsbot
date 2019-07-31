@@ -23,7 +23,6 @@ Ideas and suggestions are not limited to these feedback periods, but in the shor
 When contributing through raising an __Issue__ please include:
 1. Identification of the phase of the project to which the issue relates i.e. Revision1, Revision2 or After Revision 2
 1. Identification of the artefact(s) affected eg Requirements, BOM, Board Design...
-1. Appropriate GitHub __Label__ to characterise the __Issue__
 1. A clear and brief description of the suggested improvement
 
 Thanks for your ideas and help.
