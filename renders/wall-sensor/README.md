@@ -22,4 +22,5 @@ The emitter and indicator output pin assignments correspond with those on the li
 
 The sensor board does not overhang the mainboard outline ad so will not interfere with motion insde the maze. Builders may find that the steering control of the mouse in this configuration will be different to that in the line sensor configuration.
 
+Values for the load and current limit resistors have not been entered because the circuit has not yet been tested in this configuration. A trial is underway and suggested starting values will be given when that is done.
 
