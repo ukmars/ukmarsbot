@@ -1,8 +1,8 @@
 ## Note ##
 
-The schematics and board layouts currently in this directory are for illustration, and do not necessarily form part of the documentation.
+The images currently in this directory are for illustration, and do not necessarily form part of the documentation.
 
-When the boards are released, the full Eagle files will be made available in the repository.
+Full Eagle files and PDF schematics are to be found in the eagle directory.
 
 Meanwhile, these files are presented for discussion and should not be regarded as definitive.
 
@@ -16,7 +16,7 @@ The basic wall sensor board is intended for wall following events in the classic
 
 The emitters are placed above the board and the detectors are below. When mounted, the sensor board will need to be raised above the main board so that there is room for the detectors between the sensor board and the main board. Placing the detectors like this will shield them both from ambient light and direct illumination by the emitters.
 
-A single transistor is available to turn the emitters on and off. There is no provision to bypass this because the wall sensors are much less reliable if used with the emitters continuously illuminated. Furthermore, the higher currents needed by wall sensors would place an unacceptable load on the power supply if the emitters were left on continually. 
+A single transistor is available to turn the emitters on and off. There is no provision to bypass this because the wall sensors are much less reliable if used with the emitters continuously illuminated. Furthermore, the higher currents needed by wall sensors would place an unacceptable load on the power supply if the emitters were left on continually.
 
 Two visible LEDs are available for user feedback.
 

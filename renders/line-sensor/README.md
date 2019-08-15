@@ -1,8 +1,8 @@
 ## Note ##
 
-The schematics and board layouts currently in this directory are for illustration, and do not necessarily form part of the documentation.
+The images currently in this directory are for illustration, and do not necessarily form part of the documentation.
 
-When the boards are released, the full Eagle files will be made available in the repository.
+Full Eagle files and PDF schematics are to be found in the eagle directory.
 
 Meanwhile, these files are presented for discussion and should not be regarded as definitive.
 
