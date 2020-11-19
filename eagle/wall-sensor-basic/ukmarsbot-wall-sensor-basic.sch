@@ -1465,8 +1465,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="2.286" y1="1.016" x2="1.905" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="2.286" y1="-1.016" x2="1.905" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.1524" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1"/>
-<pad name="2" x="3.81" y="0" drill="1"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="1.8796"/>
+<pad name="2" x="3.81" y="0" drill="1" diameter="1.8796"/>
 <text x="-2.54" y="1.2954" size="0.9906" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.6256" y="-0.4826" size="0.9906" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="2.54" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
@@ -1601,34 +1601,6 @@ type 0207, grid 5 mm</description>
 <pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
 <text x="-1.143" y="0.889" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.143" y="-2.159" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="0207/7">
-<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
-type 0207, grid 7.5 mm</description>
-<wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
-<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
-<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
-<text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
-<rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
 <package name="0309/10">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
@@ -3777,8 +3749,8 @@ grid 2.54 mm, diameter 7 mm</description>
 <wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
 <circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
-<pad name="-" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="+" x="-1.27" y="0" drill="0.8128" diameter="1.6002"/>
+<pad name="-" x="1.27" y="0" drill="1" diameter="1.8796" shape="octagon"/>
+<pad name="+" x="-1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="3.048" y="2.032" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="3.048" y="-3.175" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
@@ -7401,8 +7373,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="2.2225" y="0.3175" size="1.27" layer="21">c</text>
 </package>
 <package name="PHOTOTRANSISTOR-5MM-SIDE">
-<pad name="E" x="-1.27" y="0" drill="0.8128"/>
-<pad name="C" x="1.27" y="0" drill="0.8128"/>
+<pad name="E" x="-1.27" y="0" drill="1"/>
+<pad name="C" x="1.27" y="0" drill="1"/>
 <wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
@@ -7426,8 +7398,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 </package>
 <package name="LED-5MM-SIDE">
-<pad name="A" x="-1.27" y="0" drill="0.8"/>
-<pad name="K" x="1.27" y="0" drill="0.8"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
 <wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
@@ -7450,26 +7422,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <circle x="-1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 <circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 </package>
-<package name="LED_5MM">
-<description>&lt;B&gt;LED 5mm PTH&lt;/B&gt;&lt;p&gt;
-5 mm, round
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
-&lt;li&gt;Diameter: 5mm&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;LED-IR-THRU&lt;/li&gt;</description>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
-<text x="-1.5875" y="1.27" size="0.8128" layer="21">A</text>
-<text x="0.9525" y="1.27" size="0.8128" layer="21">K</text>
-</package>
 <package name="LED_3MM">
 <description>&lt;h3&gt;LED 3MM PTH&lt;/h3&gt;
 
@@ -7482,8 +7434,8 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<pad name="A" x="-1.27" y="0" drill="1"/>
-<pad name="K" x="1.27" y="0" drill="1"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="17" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.27" layer="27" font="vector" ratio="17" align="top-center">&gt;VALUE</text>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.25" layer="21" curve="-289.564814"/>
@@ -7491,9 +7443,29 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="-3.175" y="-0.3175" size="0.8128" layer="21" font="vector">A</text>
 <text x="2.54" y="-0.3175" size="0.8128" layer="21">K</text>
 </package>
+<package name="LED_5MM">
+<description>&lt;B&gt;LED 5mm PTH&lt;/B&gt;&lt;p&gt;
+5 mm, round
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1inch&lt;/li&gt;
+&lt;li&gt;Diameter: 5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED-IR-THRU&lt;/li&gt;</description>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
+<text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.254" layer="21" curve="-286.260205" cap="flat"/>
+<circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
+<text x="-1.5875" y="1.27" size="0.8128" layer="21">A</text>
+<text x="0.9525" y="1.27" size="0.8128" layer="21">K</text>
+</package>
 <package name="PHOTOTRANSISTOR_5MM">
-<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="E" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="C" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -7501,6 +7473,34 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <text x="0.9525" y="1.27" size="0.8128" layer="21">C</text>
 <text x="-1.5875" y="1.27" size="0.8128" layer="21">E</text>
+</package>
+<package name="0207/7">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+type 0207, grid 7.5 mm</description>
+<wire x1="-3.81" y1="0" x2="-3.429" y2="0" width="0.6096" layer="51"/>
+<wire x1="-3.175" y1="0.889" x2="-2.921" y2="1.143" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-2.921" y2="-1.143" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="-1.143" x2="3.175" y2="-0.889" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="1.143" x2="3.175" y2="0.889" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-0.889" x2="-3.175" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="-2.921" y1="1.143" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="1.016" x2="-2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.143" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-1.016" x2="-2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="1.016" x2="-2.413" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="-1.016" x2="-2.413" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="1.143" x2="2.54" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="1.8796"/>
+<pad name="2" x="3.81" y="0" drill="1" diameter="1.8796"/>
+<text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
+<rectangle x1="3.175" y1="-0.3048" x2="3.429" y2="0.3048" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -10502,7 +10502,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </classes>
 <parts>
 <part name="J1" library="ukmarsbot" deviceset="CONN_14" device=""/>
-<part name="FRAME1" library="ukmarsbot" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME1" library="ukmarsbot" deviceset="FRAME-A4L" device="">
+<attribute name="REV" value="1.0"/>
+</part>
 <part name="LED3" library="ukmarsbot" deviceset="LED" device="-SIDE" value="SFH4550"/>
 <part name="LED4" library="ukmarsbot" deviceset="LED" device="-SIDE" value="SFH4550"/>
 <part name="LED5" library="ukmarsbot" deviceset="LED" device="-SIDE" value="SFH4550"/>
@@ -10520,7 +10522,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="C1" library="ukmarsbot" deviceset="CPOL-EU" device="E2.5-7" value="100uF">
 <attribute name="VOLTAGE" value="16V"/>
 </part>
-<part name="Q1" library="ukmarsbot" deviceset="TRANS_NPN" device="" value="2N2222*"/>
+<part name="Q1" library="ukmarsbot" deviceset="TRANS_NPN" device="" value="BC337*"/>
 <part name="SUPPLY1" library="ukmarsbot" deviceset="5V" device=""/>
 <part name="SUPPLY2" library="ukmarsbot" deviceset="5V" device=""/>
 <part name="GND3" library="ukmarsbot" deviceset="GND" device=""/>
@@ -10566,13 +10568,20 @@ transistor Q1 is fully turned on.
 Q1 may be one of many different transistor types. 
 Possible alternatives include BC337-16, ZTX451, ZTX651, ZTX689B.
 </text>
+<text x="180.34" y="22.86" size="1.778" layer="94">REV B - NOV 2020 - larger pads/holes</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="17.78" y="139.7" smashed="yes">
 <attribute name="VALUE" x="17.78" y="117.094" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="17.78" y="157.988" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="181.61" y="11.43" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="181.61" y="6.35" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="195.58" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="226.26" y="6.35" size="2.54" layer="94" font="vector"/>
+<attribute name="REV" x="234.92" y="1.17" size="2.54" layer="94" font="vector"/>
+</instance>
 <instance part="LED3" gate="D1" x="213.36" y="142.24" smashed="yes">
 <attribute name="NAME" x="210.82" y="144.78" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="200.66" y="147.32" size="1.778" layer="96" font="vector" align="top-left"/>
