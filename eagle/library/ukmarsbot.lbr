@@ -12195,8 +12195,8 @@ type 0207, grid 7.5 mm</description>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="1.8796"/>
+<pad name="2" x="3.81" y="0" drill="1" diameter="1.8796"/>
 <text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
@@ -14560,8 +14560,8 @@ Holes are offset 0.005" to hold pins in place during soldering.
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;LED-IR-THRU&lt;/li&gt;</description>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -14582,8 +14582,8 @@ Holes are offset 0.005" to hold pins in place during soldering.
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<pad name="A" x="-1.27" y="0" drill="1"/>
-<pad name="K" x="1.27" y="0" drill="1"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="17" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.27" layer="27" font="vector" ratio="17" align="top-center">&gt;VALUE</text>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.25" layer="21" curve="-289.564814"/>
@@ -15574,8 +15574,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 &lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
 <package name="LINK-03">
-<pad name="1" x="0" y="0" drill="1" diameter="1.6764"/>
-<pad name="2" x="7.62" y="0" drill="1" diameter="1.6764"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.9304"/>
+<pad name="2" x="7.62" y="0" drill="1" diameter="1.9304"/>
 <wire x1="1.27" y1="0" x2="6.35" y2="0" width="0.254" layer="21" style="shortdash"/>
 <text x="-1.27" y="1.905" size="1.27" layer="21">&gt;name</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="21">&gt;value</text>
@@ -15716,8 +15716,8 @@ Everything is on the Document layer and will not appear on a finished board.</te
 <circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 </package>
 <package name="PHOTOTRANSISTOR-5MM-SIDE">
-<pad name="E" x="-1.27" y="0" drill="0.8128"/>
-<pad name="C" x="1.27" y="0" drill="0.8128"/>
+<pad name="E" x="-1.27" y="0" drill="1"/>
+<pad name="C" x="1.27" y="0" drill="1"/>
 <wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
 <wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
@@ -15741,8 +15741,8 @@ Everything is on the Document layer and will not appear on a finished board.</te
 <circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 </package>
 <package name="PHOTOTRANSISTOR_5MM">
-<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="E" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="C" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>

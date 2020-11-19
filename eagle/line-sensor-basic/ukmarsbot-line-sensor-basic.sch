@@ -170,8 +170,8 @@ type 0207, grid 7.5 mm</description>
 <wire x1="2.921" y1="-1.143" x2="2.54" y2="-1.143" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="-0.889" x2="3.175" y2="0.889" width="0.1524" layer="51"/>
 <wire x1="3.429" y1="0" x2="3.81" y2="0" width="0.6096" layer="51"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad name="1" x="-3.81" y="0" drill="1" diameter="1.8796"/>
+<pad name="2" x="3.81" y="0" drill="1" diameter="1.8796"/>
 <text x="-2.54" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-0.5588" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.429" y1="-0.3048" x2="-3.175" y2="0.3048" layer="51"/>
@@ -7211,8 +7211,8 @@ Holes are offset 0.005" to hold pins in place while soldering.
 <circle x="1.27" y="0" radius="0.508" width="0" layer="29"/>
 </package>
 <package name="LINK-03">
-<pad name="1" x="0" y="0" drill="1" diameter="1.6764"/>
-<pad name="2" x="7.62" y="0" drill="1" diameter="1.6764"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.9304"/>
+<pad name="2" x="7.62" y="0" drill="1" diameter="1.9304"/>
 <wire x1="1.27" y1="0" x2="6.35" y2="0" width="0.254" layer="21" style="shortdash"/>
 <text x="-1.27" y="1.905" size="1.27" layer="21">&gt;name</text>
 <text x="-1.27" y="-3.175" size="1.27" layer="21">&gt;value</text>
@@ -7872,8 +7872,8 @@ No silk outline, but tDocu layer shows pin location.
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;LED&lt;/li&gt;&lt;/ul&gt;</description>
-<pad name="A" x="-1.27" y="0" drill="1"/>
-<pad name="K" x="1.27" y="0" drill="1"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="2.54" size="1.27" layer="25" font="vector" ratio="17" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.54" size="1.27" layer="27" font="vector" ratio="17" align="top-center">&gt;VALUE</text>
 <wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.25" layer="21" curve="-289.564814"/>
@@ -7891,8 +7891,8 @@ No silk outline, but tDocu layer shows pin location.
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;LED-IR-THRU&lt;/li&gt;</description>
-<pad name="A" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="K" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="K" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -8197,8 +8197,8 @@ No silk outline, but tDocu layer shows pin location.
 </polygon>
 </package>
 <package name="PHOTOTRANSISTOR_5MM">
-<pad name="E" x="-1.27" y="0" drill="0.8128" diameter="1.8796"/>
-<pad name="C" x="1.27" y="0" drill="0.8128" diameter="1.8796"/>
+<pad name="E" x="-1.27" y="0" drill="1" diameter="1.8796"/>
+<pad name="C" x="1.27" y="0" drill="1" diameter="1.8796"/>
 <text x="0" y="3.3909" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0.0254" y="-3.3909" size="0.8128" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 <wire x1="2.54" y1="-1.905" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
@@ -8206,31 +8206,6 @@ No silk outline, but tDocu layer shows pin location.
 <circle x="0" y="0" radius="2.54" width="0.1524" layer="21"/>
 <text x="0.9525" y="1.27" size="0.8128" layer="21">C</text>
 <text x="-1.5875" y="1.27" size="0.8128" layer="21">E</text>
-</package>
-<package name="PHOTOTRANSISTOR-5MM-SIDE">
-<pad name="E" x="-1.27" y="0" drill="0.8128"/>
-<pad name="C" x="1.27" y="0" drill="0.8128"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="7.62" x2="0" y2="10.16" width="0.127" layer="21" curve="-90"/>
-<wire x1="0" y1="10.16" x2="2.54" y2="7.62" width="0.127" layer="21" curve="-90"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="3.4925" width="0.127" layer="21"/>
-<wire x1="2.54" y1="3.4925" x2="2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.127" layer="21"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="0" width="0.127" layer="21"/>
-<text x="-3.175" y="-0.635" size="1.27" layer="21">E</text>
-<text x="2.54" y="-0.635" size="1.27" layer="21">C</text>
-<text x="3.81" y="5.08" size="1.27" layer="25">&gt;name</text>
-<text x="3.81" y="2.54" size="1.27" layer="27">&gt;value</text>
-<wire x1="-3.175" y1="2.54" x2="-3.175" y2="3.4925" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="3.4925" x2="-2.54" y2="3.4925" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="3.4925" x2="2.54" y2="3.4925" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="3.4925" width="0.127" layer="21"/>
-<circle x="-1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
-<circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 </package>
 <package name="LED-5MM-SIDE">
 <pad name="A" x="-1.27" y="0" drill="0.8"/>
@@ -8254,6 +8229,31 @@ No silk outline, but tDocu layer shows pin location.
 <wire x1="-3.175" y1="3.175" x2="-3.175" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-3.175" y1="2.54" x2="-2.54" y2="2.54" width="0.127" layer="21"/>
 <wire x1="-2.54" y1="3.175" x2="-2.54" y2="7.62" width="0.127" layer="21"/>
+<circle x="-1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
+<circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
+</package>
+<package name="PHOTOTRANSISTOR-5MM-SIDE">
+<pad name="E" x="-1.27" y="0" drill="1"/>
+<pad name="C" x="1.27" y="0" drill="1"/>
+<wire x1="-2.54" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="5.08" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="10.16" x2="0" y2="12.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="12.7" x2="2.54" y2="10.16" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="6.0325" width="0.127" layer="21"/>
+<wire x1="2.54" y1="6.0325" x2="2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="0" width="0.127" layer="21"/>
+<text x="-3.175" y="-0.635" size="1.27" layer="21">E</text>
+<text x="2.54" y="-0.635" size="1.27" layer="21">C</text>
+<text x="3.81" y="5.08" size="1.27" layer="25">&gt;name</text>
+<text x="3.81" y="2.54" size="1.27" layer="27">&gt;value</text>
+<wire x1="-3.175" y1="5.08" x2="-3.175" y2="6.0325" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="6.0325" x2="-2.54" y2="6.0325" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="6.0325" x2="2.54" y2="6.0325" width="0.127" layer="21"/>
+<wire x1="-3.175" y1="5.08" x2="-2.54" y2="5.08" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="6.0325" width="0.127" layer="21"/>
 <circle x="-1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 <circle x="1.27" y="0" radius="0.898025" width="0.127" layer="21"/>
 </package>
@@ -11740,7 +11740,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="R9" library="ukmarsbot" deviceset="R-EU_" device="0207/7" value="390"/>
 <part name="R2" library="ukmarsbot" deviceset="R-EU_" device="0207/7" value="10K"/>
 <part name="C1" library="ukmarsbot" deviceset="CPOL-EU" device="E2.5-7" value="100uF"/>
-<part name="Q1" library="ukmarsbot" deviceset="TRANS_NPN" device="" value="PN2222A*"/>
+<part name="Q1" library="ukmarsbot" deviceset="TRANS_NPN" device="" value="BC337*"/>
 <part name="J2" library="ukmarsbot" deviceset="CONN_03" device=""/>
 <part name="SUPPLY2" library="ukmarsbot" deviceset="5V" device=""/>
 <part name="GND2" library="ukmarsbot" deviceset="GND" device=""/>
@@ -11794,6 +11794,7 @@ transistor Q1 is fully turned on.
 Q1 may be one of many different transistor types. 
 Possible alternatives include BC337-16, ZTX451, ZTX651, ZTX689B.
 </text>
+<text x="114.3" y="-25.4" size="1.778" layer="94">REV B - Nov 2020 - enlarge pads/holes</text>
 </plain>
 <instances>
 <instance part="LED1" gate="D1" x="-33.02" y="91.44" smashed="yes">
