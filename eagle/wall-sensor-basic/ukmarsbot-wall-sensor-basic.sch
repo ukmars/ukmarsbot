@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10505,9 +10505,9 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="FRAME1" library="ukmarsbot" deviceset="FRAME-A4L" device="">
 <attribute name="REV" value="1.0"/>
 </part>
-<part name="LED3" library="ukmarsbot" deviceset="LED" device="-SIDE" value="SFH4550"/>
-<part name="LED4" library="ukmarsbot" deviceset="LED" device="-SIDE" value="SFH4550"/>
-<part name="LED5" library="ukmarsbot" deviceset="LED" device="-SIDE" value="SFH4550"/>
+<part name="LED3" library="ukmarsbot" deviceset="LED" device="-SIDE" value="Emitter"/>
+<part name="LED4" library="ukmarsbot" deviceset="LED" device="-SIDE" value="Emitter"/>
+<part name="LED5" library="ukmarsbot" deviceset="LED" device="-SIDE" value="Emitter"/>
 <part name="T1" library="ukmarsbot" deviceset="PHOTOTRANSISTOR" device="SIDE" value="BPW96B">
 <attribute name="POS" value="Left"/>
 </part>
@@ -10568,7 +10568,7 @@ transistor Q1 is fully turned on.
 Q1 may be one of many different transistor types. 
 Possible alternatives include BC337-16, ZTX451, ZTX651, ZTX689B.
 </text>
-<text x="180.34" y="22.86" size="1.778" layer="94">REV B - NOV 2020 - larger pads/holes</text>
+<text x="180.34" y="22.86" size="1.778" layer="94">REV C - DEC 2020 - larger pads/holes &amp; Generic emitters</text>
 </plain>
 <instances>
 <instance part="J1" gate="G$1" x="17.78" y="139.7" smashed="yes">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -190,7 +190,7 @@
 <text x="23.8125" y="51.7525" size="2.5" layer="25" font="vector" ratio="17">UKMARSBOT</text>
 <text x="53.975" y="51.7525" size="2.5" layer="25" font="vector" ratio="17">ukmars.org</text>
 <text x="10.16" y="76.835" size="1.27" layer="25" font="vector" ratio="17">Wall Sensor Basic</text>
-<text x="75.565" y="76.835" size="1.27" layer="25" font="vector" ratio="17">20190815B</text>
+<text x="75.565" y="76.835" size="1.27" layer="25" font="vector" ratio="17">20190815C</text>
 </plain>
 <libraries>
 <library name="ukmarsbot">
@@ -664,15 +664,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="NAME" x="29.845" y="70.612" size="1.016" layer="25" font="vector" ratio="17"/>
 <attribute name="VALUE" x="31.75" y="67.183" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="LED3" library="ukmarsbot" package="LED-5MM-SIDE" value="SFH4550" x="79.289925" y="69.5325" smashed="yes" rot="R240">
+<element name="LED3" library="ukmarsbot" package="LED-5MM-SIDE" value="Emitter" x="79.289925" y="69.5325" smashed="yes" rot="R240">
 <attribute name="NAME" x="84.056159375" y="70.347634375" size="1.016" layer="25" font="vector" ratio="17" rot="R330"/>
 <attribute name="VALUE" x="79.452409375" y="64.97293125" size="1.016" layer="27" font="vector" ratio="17" rot="R330"/>
 </element>
-<element name="LED4" library="ukmarsbot" package="LED-5MM-SIDE" value="SFH4550" x="49.53" y="61.595" smashed="yes" rot="R180">
+<element name="LED4" library="ukmarsbot" package="LED-5MM-SIDE" value="Emitter" x="49.53" y="61.595" smashed="yes" rot="R180">
 <attribute name="NAME" x="52.3875" y="56.67375" size="1.016" layer="25" font="vector" ratio="17" rot="SR270"/>
 <attribute name="VALUE" x="45.72" y="59.69" size="1.016" layer="27" font="vector" ratio="17" rot="R270"/>
 </element>
-<element name="LED5" library="ukmarsbot" package="LED-5MM-SIDE" value="SFH4550" x="19.685" y="69.85" smashed="yes" rot="R120">
+<element name="LED5" library="ukmarsbot" package="LED-5MM-SIDE" value="Emitter" x="19.685" y="69.85" smashed="yes" rot="R120">
 <attribute name="NAME" x="14.8200625" y="62.21543125" size="1.016" layer="25" font="vector" ratio="17" rot="R30"/>
 <attribute name="VALUE" x="16.32384375" y="72.63699375" size="1.016" layer="27" font="vector" ratio="17" rot="R210"/>
 </element>
