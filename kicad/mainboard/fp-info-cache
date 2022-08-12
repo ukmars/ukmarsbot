@@ -1,4 +1,4 @@
-20408543641040813
+20441749559861937
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86057,3 +86057,143 @@ Arduino Sparkfun Pro Micro
 0
 24
 24
+ukmarsbot
+Arduino_Nano
+Arduino Nano
+Arduino Nano
+0
+30
+30
+ukmarsbot
+Arduino_Nano_Every
+Arduino Nano Every
+Arduino Nano Every
+0
+30
+30
+ukmarsbot
+CLASSIC-MAZE-CELL
+
+
+0
+0
+0
+ukmarsbot
+C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02
+C, Rect series, Radial, pin pitch=2.50mm, , length*width=4.6*2mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf
+C Rect series Radial pin pitch 2.50mm  length 4.6mm width 2mm Capacitor
+0
+2
+2
+ukmarsbot
+DIL14
+<b>Dual In Line Package</b>
+
+0
+14
+14
+ukmarsbot
+DIP-12_W7.62mm_LongPads
+12-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+12
+12
+ukmarsbot
+D_5W_P12.70mm_Horizontal
+Diode, 5W series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=8.9*3.7mm^2, , http://www.diodes.com/_files/packages/8686949.gif
+Diode 5W series Axial Horizontal pin pitch 12.7mm  length 8.9mm diameter 3.7mm
+0
+2
+2
+ukmarsbot
+D_DO-35_SOD27_P7.62mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+ukmarsbot
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+ukmarsbot
+MINI-METAL-GEARMOTOR-WITH-BRACKET
+
+
+0
+0
+0
+ukmarsbot
+MODULE_ROB-14450
+
+
+0
+16
+16
+ukmarsbot
+PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
+ukmarsbot
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+ukmarsbot
+PinHeader_1x06_P2.54mm_Vertical
+Through hole straight pin header, 1x06, 2.54mm pitch, single row
+Through hole pin header THT 1x06 2.54mm single row
+0
+6
+6
+ukmarsbot
+PinHeader_1x14_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+ukmarsbot
+R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm
+0
+2
+2
+ukmarsbot
+R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+ukmarsbot
+SPARKFUN-TB6612FNG
+
+
+0
+16
+16
+ukmarsbot
+SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile
+4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 6.7x11.72mm (see e.g. https://www.ctscorp.com/wp-content/uploads/209-210.pdf), LowProfile
+DIP Switch SPST Slide 7.62mm 300mil LowProfile
+0
+8
+8
+ukmarsbot
+TACTILE_SWITCH_PTH_6.0MM
+<h3>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square</h3>{return}<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>{return}<p><a href="https://www.omron.com/ecb/products/pdf/en-b3f.pdf">Datasheet</a> (B3F-1000)</p>
+
+0
+4
+4
