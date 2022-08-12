@@ -5,7 +5,7 @@
     (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
     (tstamp 35be6554-bcad-4f60-b242-03135509615d)
   )
-  (fp_text value "" (at 0 0) (layer "F.Fab")
+  (fp_text value "Val**" (at 0 0) (layer "F.Fab")
     (effects (font (size 1.27 1.27) (thickness 0.15)))
     (tstamp 8e0abcde-266d-4570-92e0-c94ec6b00a87)
   )
@@ -45,4 +45,9 @@
     (solder_mask_margin 0.1016) (tstamp 019f50fb-8f6b-4b83-857b-d946149b38e9))
   (pad "VM" thru_hole circle (at -7.62 -10.16) (size 1.6764 1.6764) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp 03e72389-ccbb-4534-bfb1-aa4d2eefcbba))
+  (model "${LOCALREPO}/3D-models/modules/ROB-14450.step"
+    (offset (xyz 0 1.27 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

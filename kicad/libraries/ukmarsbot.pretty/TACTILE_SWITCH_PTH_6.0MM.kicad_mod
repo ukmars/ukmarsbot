@@ -38,4 +38,9 @@
     (solder_mask_margin 0.1016) (tstamp 98414b69-bf8f-4a4c-bf08-a1290d8b6ea8))
   (pad "4" thru_hole circle (at 3.2512 2.2606) (size 1.8796 1.8796) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp efb69600-999a-4814-a69f-3ba74e358191))
+  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step"
+    (offset (xyz -3 2.25 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
