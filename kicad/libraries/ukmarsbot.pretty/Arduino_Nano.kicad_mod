@@ -76,7 +76,7 @@
   (pad "28" thru_hole oval (at 15.24 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp daa76174-eeb6-40ae-a014-4c0823d681a9))
   (pad "29" thru_hole oval (at 15.24 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 37399e17-0b6c-4de7-aaae-29a5c12f74be))
   (pad "30" thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 86c67b91-e2b3-4155-9334-f882fa909070))
-  (model "${LOCALREPO}/kicad-lib-arduino/Arduino.3dshapes/arduino_nano.x3d"
+  (model "../libraries/3D-models/Arduino.3dshapes/arduino_nano.x3d"
     (offset (xyz 0 0 6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

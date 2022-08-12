@@ -43,7 +43,7 @@
   (fp_arc (start 9 -4.25) (mid 13.25 0) (end 9 4.25) (layer "F.SilkS") (width 0.127) (tstamp 5470433e-7576-41a6-a8be-dae5adca7df3))
   (fp_circle (center -9 0) (end -7.75 0) (layer "F.SilkS") (width 0.127) (fill none) (tstamp 56de5b51-270c-4b03-9358-de9e58927c20))
   (fp_circle (center 9 0) (end 10.25 0) (layer "F.SilkS") (width 0.127) (fill none) (tstamp 650488aa-a6a0-4b4e-a648-81aabb9bd6a2))
-  (model "/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/kicad/libraries/3D-models/motors/micro-metal-gearmotor-extended-with-1086-bracket.step"
+  (model "../libraries/3D-models/motors/micro-metal-gearmotor-extended-with-1086-bracket.step"
     (offset (xyz 0 4.6 5))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 -90))

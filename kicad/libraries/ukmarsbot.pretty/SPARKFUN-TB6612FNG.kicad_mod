@@ -45,7 +45,7 @@
     (solder_mask_margin 0.1016) (tstamp 019f50fb-8f6b-4b83-857b-d946149b38e9))
   (pad "VM" thru_hole circle (at -7.62 -10.16) (size 1.6764 1.6764) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp 03e72389-ccbb-4534-bfb1-aa4d2eefcbba))
-  (model "${LOCALREPO}/3D-models/modules/ROB-14450.step"
+  (model "../libraries/3D-models/modules/ROB-14450.step"
     (offset (xyz 0 1.27 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
