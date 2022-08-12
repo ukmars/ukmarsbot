@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name "ukmarsbot")(type "KiCad")(uri "/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/kicad/libraries/ukmarsbot.kicad_sym")(options "")(descr ""))
+  (lib (name "ukmarsbot")(type "KiCad")(uri "../kicad/libraries/ukmarsbot.kicad_sym")(options "")(descr ""))
 )
