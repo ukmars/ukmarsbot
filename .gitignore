@@ -1,3 +1,7 @@
+# temporarily ignore eagle import
+
+kicad/mainboard-imported
+
 # Generic backup files
 *~
 \#*
@@ -13,3 +17,4 @@
 *.net
 *-cache.lib
 *-rescue.lib
+
