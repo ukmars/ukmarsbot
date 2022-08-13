@@ -1,6 +1,6 @@
 (fp_lib_table
-  (lib (name "ukmarsbot")(type "KiCad")(uri "../kicad/libraries/ukmarsbot.pretty")(options "")(descr ""))
   (lib (name "snapeda")(type "KiCad")(uri "${LOCALREPO}/snapeda/DPDT-switch-1101M2S3CQE2")(options "")(descr ""))
   (lib (name "digikey-footprints")(type "KiCad")(uri "${LOCALREPO}/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
   (lib (name "Connectors")(type "KiCad")(uri "${LOCALREPO}/SparkFun-KiCad-Libraries/Footprints/Connectors.pretty")(options "")(descr ""))
+  (lib (name "ukmarsbot")(type "KiCad")(uri "${KIPRJMOD}/../libraries/ukmarsbot.pretty")(options "")(descr ""))
 )
