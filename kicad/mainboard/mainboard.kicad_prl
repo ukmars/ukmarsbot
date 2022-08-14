@@ -36,7 +36,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -62,8 +61,8 @@
       35,
       36
     ],
-    "visible_layers": "febffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ff7ffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "mainboard.kicad_prl",

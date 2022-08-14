@@ -27,6 +27,7 @@
   (fp_line (start 11.684 0.127) (end 11.176 0.127) (layer "F.SilkS") (width 0.2032) (tstamp d7aa0ed2-dbe0-4fae-aaf0-c4d14bb85b36))
   (fp_line (start 13.97 -0.8636) (end 13.6906 -1.143) (layer "F.SilkS") (width 0.2032) (tstamp dbd73f70-5c77-4a15-90ca-146c1531871b))
   (fp_line (start -1.27 0.127) (end -1.27 -0.8636) (layer "F.SilkS") (width 0.2032) (tstamp f578b52e-9b89-4bb6-9b60-6183278b4ac9))
+  (fp_rect (start -1.27 -1.27) (end 13.97 1.27) (layer "F.CrtYd") (width 0.12) (fill none) (tstamp 6d4b9cfc-fb8f-4811-8578-2f4bd833e9ec))
   (pad "1" thru_hole oval (at 0 0 180) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp d7b4c696-e69b-4c27-a1b2-a6dd4b480898))
   (pad "2" thru_hole oval (at 2.54 0.254 180) (size 1.524 3.048) (drill 1.016) (layers *.Cu *.Mask)
