@@ -27,7 +27,7 @@
   (pad "1" thru_hole rect (at -2.5 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp 5b7c01a4-747c-4261-9af3-58aed052693a))
   (pad "2" thru_hole circle (at 0 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp d90f4175-6ce7-41ef-8a9a-74fa80a768b6))
   (pad "3" thru_hole circle (at 2.5 0) (size 1.408 1.408) (drill 0.9) (layers *.Cu *.Mask) (tstamp 9ea6ab44-8461-4bfa-8671-9c6b52cfaa14))
-  (model "/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/kicad/libraries/3D-models/buttons-switches/MINI-SPDT-SW.step"
+  (model "${KIPRJMOD}/../libraries/3D-models/buttons-switches/MINI-SPDT-SW.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 -180 0))
