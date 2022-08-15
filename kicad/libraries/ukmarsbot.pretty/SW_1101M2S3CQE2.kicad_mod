@@ -27,7 +27,7 @@
   (pad "1" thru_hole rect (at 0 -4.7) (size 3 3) (drill 1.85) (layers *.Cu *.Mask) (tstamp a8d53dda-53b5-4dfc-ad7b-7f4a2c1215a6))
   (pad "2" thru_hole circle (at 0 0) (size 3 3) (drill 1.85) (layers *.Cu *.Mask) (tstamp e39e7958-57b9-4da8-bf43-c185a28f4013))
   (pad "3" thru_hole circle (at 0 4.7) (size 3 3) (drill 1.85) (layers *.Cu *.Mask) (tstamp 52b4bf9a-507b-4e06-b063-c8bd4276131f))
-  (model "../libraries/3D-models/buttons-switches/1101M2S3CQE2.step"
+  (model "${KIPRJMOD}/../libraries/3D-models/buttons-switches/1101M2S3CQE2.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

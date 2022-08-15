@@ -884,7 +884,7 @@
       (net 2 "GND") (pinfunction "GND") (pintype "power_in") (tstamp 85904dfa-8106-4352-9b6f-289dd7e41ce0))
     (pad "30" thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 3 "/V_BATT") (pinfunction "VIN") (pintype "power_in") (tstamp 5a2ab642-84ce-4ff4-b18b-ebb1c18214ab))
-    (model "/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/kicad/libraries/3D-models/Arduino.3dshapes/arduino_nano.x3d"
+    (model "${KIPRJMOD}/../libraries/3D-models/Arduino.3dshapes/arduino_nano.x3d"
       (offset (xyz 0 0 6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1061,7 +1061,7 @@
       (clearance 2) (tstamp 5a4c24f2-3a39-4737-86e0-c3880384b8be))
     (pad "" np_thru_hole circle (at 9 0) (size 3.5 3.5) (drill 2.75) (layers F&B.Cu *.Mask)
       (clearance 2) (tstamp bdf76185-fc49-40ee-8ed0-fa94324c616c))
-    (model "../libraries/3D-models/motors/motor_encoder_covered.STEP"
+    (model "${KIPRJMOD}/../libraries/3D-models/motors/motor_encoder_covered.STEP"
       (offset (xyz 0 22.5 1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1122,7 +1122,7 @@
       (clearance 2) (tstamp 0140b7d8-c2fa-458d-a415-99dc5d6dc517))
     (pad "" np_thru_hole circle (at -9 0 180) (size 3.5 3.5) (drill 2.75) (layers F&B.Cu *.Mask)
       (clearance 2) (tstamp bc99d9b7-7bbb-4113-9ded-7a3eb4684655))
-    (model "../libraries/3D-models/motors/motor_encoder_covered.STEP"
+    (model "${KIPRJMOD}/../libraries/3D-models/motors/motor_encoder_covered.STEP"
       (offset (xyz 0 22.5 1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -2219,7 +2219,7 @@
       (net 34 "/PWR_IN") (pinfunction "P") (pintype "passive") (tstamp cb0aca02-54ef-4ac6-a339-5c85fb7e71e3))
     (pad "3" thru_hole circle (at 0 4.7 90) (size 3 3) (drill 1.85) (layers *.Cu *.Mask)
       (net 30 "/SW_PWR") (pinfunction "S") (pintype "passive") (tstamp 554ada24-0428-4cd3-8121-841d9bb4b34e))
-    (model "../libraries/3D-models/buttons-switches/1101M2S3CQE2.step"
+    (model "${KIPRJMOD}/../libraries/3D-models/buttons-switches/1101M2S3CQE2.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

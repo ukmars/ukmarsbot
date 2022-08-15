@@ -49,7 +49,7 @@
     (clearance 2) (tstamp 99211671-fa90-40f0-b617-eaf0560fdeab))
   (pad "" np_thru_hole circle (at 9 0) (size 3.5 3.5) (drill 2.75) (layers F&B.Cu *.Mask)
     (clearance 2) (tstamp 9bc1c818-2738-4ef3-8959-2bfa906e29fa))
-  (model "../libraries/3D-models/motors/motor_encoder_covered.STEP"
+  (model "${KIPRJMOD}/../libraries/3D-models/motors/motor_encoder_covered.STEP"
     (offset (xyz 0 22.5 1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
