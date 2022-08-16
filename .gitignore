@@ -11,6 +11,9 @@ kicad/mainboard-imported
 *.bak
 *.bck
 *.kicad_pcb-bak
+*-backups
+fp-info-cache
+
 
 # KiCad generated files
 *.erc
