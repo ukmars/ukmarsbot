@@ -6,7 +6,7 @@
     (property "Value" "Arduino_Nano" (id 1) (at -10.16 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (property "Footprint" "Arduino:Arduino_Nano" (id 2) (at 0 -21.59 0)
+    (property "Footprint" "ukmarsbot:Arduino_Nano" (id 2) (at 0 -21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://store.arduino.cc/usa/arduino-nano" (id 3) (at 0 -2.54 0)
