@@ -1,6 +1,8 @@
-# UKMARSBOT V1.3
+# UKMARSBOT V1.3 alpha
 
 This directory holds version 1.3 of UKMARSBOT project files.
+
+__Note that this is an untested version at present__
 
 Once samples have been tested, Gerbers will be available for anyone to download sets of boards.
 
