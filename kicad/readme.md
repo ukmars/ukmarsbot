@@ -14,6 +14,8 @@ The files have been produced using KiCad 6.0 rather than Eagle.
 
 KiCad is completely free, has no restrictions on board sizes and will run on any operating system without the need for an internet connection or an account with a third party.
 
-Models and footprints are mostly from the KiCad source libraries. 
+Models and footprints mostly from KiCad source libraries. 
+Motor Models by Mark Stillman
+Arduino Models by https://github.com/g200kg/kicad-lib-arduino
+Contributions have also come SnapEDA and GrabCAD.
 
-Contributions have also come from Mark Stillman, SnapEDA and GrabCAD.  
