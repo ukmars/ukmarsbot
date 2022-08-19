@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid d1a3a3be-5885-412a-b51f-52e0665f1cfe)
+
+  (paper "A4")
+
+  (title_block
+    (title "UKMARSBOT Template")
+    (date "2022-08-19")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
