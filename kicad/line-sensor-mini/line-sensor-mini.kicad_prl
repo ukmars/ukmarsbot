@@ -62,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "ff9ffff_ffffffff",
+    "visible_layers": "ffdffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "template-test.kicad_prl",
+    "filename": "line-sensor-mini.kicad_prl",
     "version": 3
   },
   "project": {
