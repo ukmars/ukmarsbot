@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "UKMARRBOT Mainboard")
+    (date "2022-08-20")
+    (rev "1.3alpha")
+    (company "UKMARS")
+    (comment 1 "Peter Harrison")
+  )
+
   (lib_symbols
     (symbol "74xx:74HC86" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 1.27 0)
@@ -2180,7 +2188,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2641d782-2ad7-44eb-b9fa-c97c21366cb1)
   )
-  (polyline (pts (xy 193.04 171.45) (xy 193.04 125.73))
+  (polyline (pts (xy 193.04 165.1) (xy 193.04 125.73))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 27b60dca-4bc6-4f2e-ad30-521001bfd58e)
   )
@@ -2865,6 +2873,10 @@
   (text "D11" (at 38.1 85.09 180)
     (effects (font (size 1.016 1.016)) (justify left bottom))
     (uuid c7365452-8261-45a4-8706-140eb25ae77f)
+  )
+  (text "Version 1.3alpha\nPROVISIONAL" (at 205.74 180.34 0)
+    (effects (font (size 4 4)) (justify left bottom))
+    (uuid df60bf49-19e9-4884-b995-b4c449178b8c)
   )
   (text "A1" (at 38.1 80.01 180)
     (effects (font (size 1.016 1.016)) (justify left bottom))
