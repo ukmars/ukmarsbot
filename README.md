@@ -3,7 +3,21 @@
 __A simple beginner's multi purpose robot platform__
 
 Using inexpensive, readily available materials, components and techniques, UKMARS will be creating a basic robot design that can be used in a variety of common contests such as line following, wall following, drag race and mini-sumo.
+![UKMARSBOT V1.0 with basic wall sensor](https://github.com/ukmars/ukmarsbot/blob/master/renders/ukmarsbot-600x526.png)
+## Contents
 
+This repository is all about the robot itself. Software is provided in other UKMARS repositories. https://github.com/ukmars
+
+The repository has a number of sections:
+
+ - [__docs__](docs) contains miscellaneous documentation and datasheets. In there are some notes about design decisions and constraints, processor choice and configuration, and a bit about sensors.
+ - [__ecad__](ecad) contains the design files for the various electronic modules that make up the robot. The original development was done with Eagle Version 7 since it was the last 'free' version of Eagle. More recent versions are likely to be developed in KiCad since it is free, unconstrained and multiplatform. You are only likely to need to look in here f you want to modify existing modules or create your own.
+ - [__hardware__](hardware) holds subsections for the major parts that make up the robot - the main PCB and all the sensor boards. For each module you should find a set of gerbers in a zip file so that you can easily order boards from your favourite supplier. Also present should be the schematics in PDF form, images of the finished boards and a parts list (BOM) to help you populate the board and select components. Note that many component choices are up to the builder and there are a number of options possible.
+ - [__mechanical__](mechanical) contains a number of mechanical CAD files. These are most likely to be STL or STEP files  and are for components that can be 3D printed tohelp you make your robot. For example you will find motor mounts and brackets here.
+ - [__renders__](renders) is a place where we keep generated images of the robot and some components. You can get an idea of how your finished robot may look as well as see some of the prototypes that led to the current design.
+ - [__resources__](resources) is really a dump for stuff that does not fit in with the rest. At the tie of writing this is just a section about data logging.
+
+## The Processor
 Processor power will be provided by the Arduino Nano board because it is very cheap and widely available. There is a huge range of sample code available for almost any purpose and support is easily found online. The Arduino software can be installed on any computer and is free.
 
 A proposed pin usage for an Arduino Nano controller can be found in the [docs](docs) folder.
