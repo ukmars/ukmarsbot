@@ -50,8 +50,8 @@ Bigger wheels cover a greater distance in one revolution so the distance represe
 
 For forward motion, the controller can add together the counts from the left and right motor to get a count for the speed and distance travelled. That effectively doubles the resolution so that the 10:1 gearbox plus 32mm wheels will have an effective resolution of 0.838mm per count or 1194 counts per meter.
 
-Here is a table showing the best effective resolution (in mm per count) for various gearbox ratios and wheel sizes. This assumes the counts are added together for left and right wheels.
-
+Here is a table showing the best effective resolution on one wheel (in mm per count) for various gearbox ratios and wheel sizes. Adding together the counts from both motors effectivly doubles the number of counts per mm.
+   
 |Ratio  |25mm |32mm |60mm |70mm |
 |------:|:---:|:---:|:---:|:---:|
 |    5:1|1.309|1.676|3.142|3.665|
@@ -59,6 +59,12 @@ Here is a table showing the best effective resolution (in mm per count) for vari
 |   11:1|0.595|0.762|1.428|1.666|
 |   20:1|0.327|0.419|0.785|0.916|
 |   30:1|0.218|0.279|0.524|0.611|
+
+It can be convenient to work in terms of counts per meter. In the software, the counts from each encoder are added together to give a calibration value that, for standard 32mm tyres, should be about:
+
+|        Ratio |  5:1 | 10:1 | 11:1 | 20:1 | 30:1 |
+|--------------|------|------|------|------|------|
+| counts per m | 1193 | 2387 | 2625 | 4773 | 7160 |
 
 ## Summary
 
