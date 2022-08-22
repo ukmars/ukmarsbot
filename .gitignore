@@ -11,6 +11,7 @@ ecad/kicad/imports
 *~
 \#*
 .\#*
+.~*
 
 # KiCad backup files
 *.bak
