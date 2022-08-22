@@ -3,7 +3,9 @@
 __A simple beginner's multi purpose robot platform__
 
 Using inexpensive, readily available materials, components and techniques, UKMARS will be creating a basic robot design that can be used in a variety of common contests such as line following, wall following, drag race and mini-sumo.
+
 ![UKMARSBOT V1.0 with basic wall sensor](https://github.com/ukmars/ukmarsbot/blob/master/renders/ukmarsbot-600x526.png)
+
 ## Contents
 
 This repository is all about the robot itself. Software is provided in other UKMARS repositories. https://github.com/ukmars
