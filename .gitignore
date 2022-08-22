@@ -20,4 +20,4 @@ fp-info-cache
 *.net
 *-cache.lib
 *-rescue.lib
-
+*.kicad_prl
