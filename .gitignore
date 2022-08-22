@@ -1,6 +1,6 @@
 # temporarily ignore eagle import
 
-kicad/mainboard-imported
+kicad/imports
 
 # Generic backup files
 *~
