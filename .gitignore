@@ -2,6 +2,11 @@
 
 kicad/imports
 
+
+# Eagle lockfiles
+*.sch.lck
+*.brd.lck
+
 # Generic backup files
 *~
 \#*
