@@ -29,3 +29,7 @@ Two indicator LEDs are also available for user feedback.
 The emitter and indicator output pin assignments correspond with those on the wall sensor board.
 
 In use the line sensor board will overhang the front of the robot and extend to either side. Builders may find that the steering control of the mouse in this configuration will be different to that in the maze sensor configuration.
+
+### Version 20190815C
+
+Changes some component types and provides better pad sizes to make soldering easier. __Use this version for preference__
