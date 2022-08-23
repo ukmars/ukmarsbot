@@ -1,4 +1,10 @@
-# Basic Wall Sensors (20190815A)
+
+## Basic Wall Sensors (20190815C)
+
+This revision has larger pads and a couple of component suggestion changes but is otherwise physically the same as the previous version. __Use this version for preference__
+
+
+## Basic Wall Sensors (20190815A)
 
 The basic wall sensor board has three pairs of emitters and detectors. One pair points directly forwards to measure the distance to a wall ahead if there is one.
 
@@ -17,3 +23,4 @@ The emitter and indicator output pin assignments correspond with those on the li
 The sensor board does not overhang the mainboard outline ad so will not interfere with motion insde the maze. Builders may find that the steering control of the mouse in this configuration will be different to that in the line sensor configuration.
 
 Values for the load and current limit resistors have not been entered because the circuit has not yet been tested in this configuration. A trial is underway and suggested starting values will be given when that is done.
+
