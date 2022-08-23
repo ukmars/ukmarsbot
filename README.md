@@ -2,13 +2,17 @@
 
 __A simple beginner's multi purpose robot platform__
 
-Using inexpensive, readily available materials, components and techniques, UKMARS will be creating a basic robot design that can be used in a variety of common contests such as line following, wall following, drag race and mini-sumo.
+Using inexpensive, readily available materials, components and techniques, the UK Micromouse and Robotics Society (UKMARS) has created a basic robot design that can be used in a variety of common contests such as line following, wall following, drag race and mini-sumo.
 
 ![UKMARSBOT V1.0 with basic wall sensor](https://github.com/ukmars/ukmarsbot/blob/master/renders/ukmarsbot-600x526.png)
 
 ## Contents
 
-This repository is all about the robot itself. Software is provided in other UKMARS repositories. https://github.com/ukmars
+This repository is all about the robot itself. Software is provided in other UKMARS repositories. 
+
+ - Software examples https://github.com/ukmars/ukmarsbot-examples
+ - Full maze solving software: https://github.com/ukmars/ukmarsbot-mazerunner
+
 
 The repository has a number of sections:
 
@@ -20,21 +24,30 @@ The repository has a number of sections:
  - [__resources__](resources) is really a dump for stuff that does not fit in with the rest. At the tie of writing this is just a section about data logging.
 
 ## The Processor
-Processor power will be provided by the Arduino Nano board because it is very cheap and widely available. There is a huge range of sample code available for almost any purpose and support is easily found online. The Arduino software can be installed on any computer and is free.
+Processor power is provided by the Arduino Nano board because it is very cheap and widely available. There is a huge range of sample code available for almost any purpose and support is easily found online. The Arduino software can be installed on any computer and is free.
 
 A proposed pin usage for an Arduino Nano controller can be found in the [docs](docs) folder.
+
+because the Arduino Nano is a popular processor module, there are many compatible or near-compatible alternative boards available. The processor module socket makes it possible to use some of these directly with only small modifications or, with a little more work you might fit almost any processor. Variants have already been built with STM32 processors and even a Raspberry Pi pico and Zero board.
+
+## Bluetooth
+
+Some alternative processors in the Arduino range already have Bluetooth and WiFi built in. If you stick with simpler options - like the Arduino Nano - there is a connector provided for you to attach one of the common HC05 or HC06 Bluetooth modules directly to the board to make a wireless serial connection. Circuitry on the board (V1.1 and later) allowyou to leave the BT module connected during programming. You can then use any serial terminal, including the Arduino terminal, to communicate with the robot over Bluetooth.
 
 ### Coding
 The easiest language for starting coding with the Arduino, and the method most people use, is to create a  "Sketch" using the Arduino Integrated Development Environment (IDE). A "Sketch" comprises functions written with C/C++ statements and the Arduino IDE takes care of turning the sketch into a complete program and uploading it to the Arduino board. It can run on any of the major platforms: Windows, Mac and Linux enabling Sketch programs for the Arduino to be readily developed on any PC. The Arduino project has lots of examples and help available for creating code, as well as libraries of functions to carry out specific tasks.
 
-The Arduino IDE for Sketch requires software to be downloaded and installed on the development PC as well as drivers to enable the developed code to be downloaded using the USB cable onto the Arduino board. All of this software and drivers are free and easy to install as long as you have software install permissions on the PC.
-There is also a recently introduced web based development environment, but as yet this does not support all Arduino models and platforms. and still requires various plug ins to be installed on the development PC to use it.
+The Arduino IDE requires software to be downloaded and installed on the development PC as well as drivers to enable the developed code to be downloaded using the USB cable onto the Arduino board. All of this software and drivers are free and easy to install as long as you have software install permissions on the PC.
 
-For the great majority of users, writing Sketch code using the Arduino IDE is the best choice. Alternative software environments are available and are identified at the end of this document.
+There is also a recently introduced web based development environment, but as yet this does not support all Arduino models and platforms. and still requires various plug ins to be installed on the development PC to use it. Find out more here: https://www.arduino.cc/en/software
+
+A very popular alternative to the Arduino IDE is PlatformIO which can be fully integrated into the excellent VSCode editor. A 'getting started' guide for this environment is available here: https://docs.platformio.org/en/latest/integration/ide/vscode.html
+
+Alternative software environments are available and are identified at the end of this document.
 
 ### Hardware
 
-The robot hardware is constrained by the various contest events to be within certain dimensional limits. That means that the basic chassis will be smaller than 100mm x 100mm although add-on sensors for individual events will increase the size. The robot is designed to be multipurpose so there is a core hardware setup that provides for a basic wheelchair drive of two motors, encoder feedback for individual motor speed and a minimal interface for user interaction. Components will be modular so that substitutions are easy and to provide the greatest flexibility. Builders are free to make whatever modifications suit their purpose. For example, larger or smaller motors may be used or tracked drive may be substituted for wheeled drive.
+The robot hardware is constrained by the various contest events to be within certain dimensional limits. That means that the basic chassis will be smaller than 100mm x 100mm although add-on sensors for individual events will increase the size. The robot is designed to be multipurpose so there is a core hardware setup that provides for a basic wheelchair drive of two motors, encoder feedback for individual motor speed and a minimal interface for user interaction. Components will be modular so that substitutions are easy and to provide the greatest flexibility. Builders are free to make whatever modifications suit their purpose. For example, larger or smaller motors and wheels may be used and a variety of sensor options are possible.
 
 ### Power Supply
 
@@ -46,13 +59,13 @@ While there is endless variety in small DC electric motors, the N20-based gearmo
 
 ### Materials
 
-It will be possible to build the robot using parts that are commercially readily available and specialist materials will not be required, access to basic hand tools and soldering equipment will be necessary.
+It will be possible to build the robot using parts that are commercially readily available and specialist materials will not be required. Access to basic hand tools and soldering equipment will be necessary.
 
 It is likely that some builders will have some access to a 3D printer or a laser cutter or both and the open design of the robot with upgrade paths will allow advanced builders to utilize these tools to create higher performing robots.
 
 ### Software
 
-Pre-written software examples for the Arduino IDE will be available together with any special libraries that might be necessary. The intention is to provide all the basic building blocks that will allow someone to construct a working robot that can be modified to run in a particular contest. There may be complete, working contest code examples but they will be intended to illustrate how things work and are very unlikely to be a direct short-cut to making a contest-winning robot. Instead, they will be designed as a starting point for higher performance entries.
+The two software repositories mentioned above provide a fairly complete set of examples and code for almost every aspect of programming for the UKMARSBOT platform. Many of the techniques and examples will also be directly applicable to other mobile robot projects.
 
 If the Arduino IDE is not for you, then there are other programming choices to suit you. (__None of these have been tried by UKMARS__)
 
