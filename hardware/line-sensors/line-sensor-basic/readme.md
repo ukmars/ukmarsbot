@@ -5,12 +5,16 @@ In this folder you will find:
 
  - images of the various sensor board versions
  - schematic drawings for each as PDF files
- - bill of material spreadsheets with comonent values. Some components are adjust on test or may be substituted by builders. Suggestions are given but not guaranteed to be correct.
+ - bill of material spreadsheets with component values. Some components are adjust on test or may be substituted by builders. Suggestions are given but not guaranteed to be correct.
  - zipped gerbers suitable for uploading to board manufacturers
 
 ## Notes
 
-The basic line sensor board is indended for the full-size classic line following and drag race events. 
+The basic line sensor board is intended for the full-size classic line following and drag race events. 
+
+### Version 20190815C
+
+Changes some component types and provides better pad sizes to make soldering easier. __Use this version for preference__
 
 ### Version 20190815A
 
@@ -30,6 +34,3 @@ The emitter and indicator output pin assignments correspond with those on the wa
 
 In use the line sensor board will overhang the front of the robot and extend to either side. Builders may find that the steering control of the mouse in this configuration will be different to that in the maze sensor configuration.
 
-### Version 20190815C
-
-Changes some component types and provides better pad sizes to make soldering easier. __Use this version for preference__
