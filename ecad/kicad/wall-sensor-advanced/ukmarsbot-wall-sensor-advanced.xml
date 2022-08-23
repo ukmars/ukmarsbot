@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/wall-sensor-advanced/ukmarsbot-wall-sensor-advanced.kicad_sch</source>
+    <date>Tue 23 Aug 2022 23:22:19 BST</date>
+    <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UKMARSBOT WALL SENSOR ADVANCED</title>
+        <company>UKMARS</company>
+        <rev>1.0</rev>
+        <date>2022-08-23</date>
+        <source>ukmarsbot-wall-sensor-advanced.kicad_sch</source>
+        <comment number="1" value="Peter Harrison"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>330uF, 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b75527</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>330uF, 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a785db99-bc5e-4380-a605-b134409d112a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SFH4550</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae73d0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SFH4550</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060adf198</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SFH4550</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae9be8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SFH4550</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae738e</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b3eb33</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>3.2mm</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b03e53</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>3.2mm</value>
+      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b04090</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x14</value>
+      <footprint>ukmarsbot:PinHeader_1x14_P2.54mm_Vertical_Longpads</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b1cfe1</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>TEFT4300</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060aea979</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>TEFT4300</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ad9e4e</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>TEFT4300</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060adb628</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>TEFT4300</value>
+      <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ad77e0</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BC337</value>
+      <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
+      <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae739a</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BC337</value>
+      <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
+      <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060aeb722</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10R</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae73d6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10R</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060adf19e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10R</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060aeae98</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10R</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae7394</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k8</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060aec69c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k8</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ad9e54</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k8</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060adb62e</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k8</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ad77e6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060ae73af</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>100k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060af1d2d</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>33</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b75f9e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>1k0</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060b3feec</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>390R</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03379dcc-28e7-4b89-a687-1dd24e44f6e4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>390R</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7edac8c3-b503-4b14-83f4-cb9aff87ff58</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x14">
+      <description>Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x14</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_Photo_NPN">
+      <description>NPN phototransistor, collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_Photo_NPN</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="BC337">
+      <description>0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC337</field>
+        <field name="Footprint">ukmarsbot:TO-92_Inline_Wide_HandSolder</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="ukmarsbot">
+      <uri>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/wall-sensor-advanced/../libraries/ukmarsbot.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DIA_COMMON">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="2" name="/FWD_COMMON">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="3" name="5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="A0_LF">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="A1_RD">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="A2_LD">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="A3_LF">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="D6_LED">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="D11_FRONT">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="D12_DIAGONAL">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="V_LED">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(J1-Pad11)">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pad12)">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

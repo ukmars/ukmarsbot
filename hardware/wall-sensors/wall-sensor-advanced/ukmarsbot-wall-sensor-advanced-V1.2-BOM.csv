@@ -1,0 +1,58 @@
+﻿Source:,wall-sensor-advanced/ukmarsbot-wall-sensor-advanced.kicad_sch
+Date:,Tue 23 Aug 2022 23:22:19 BST
+Tool:,Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1
+Generator:,/usr/share/kicad/plugins/bom_csv_grouped_by_value.py
+Component Count:,30
+,
+Individual Components:,
+,
+Item,Qty,Reference(s),Value,LibPart,Footprint
+,,C1,"330uF, 16V",Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P2.50mm
+,,C2,"330uF, 16V",Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P2.50mm
+,,D1,SFH4550,Device:LED,ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+,,D2,SFH4550,Device:LED,ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+,,D3,SFH4550,Device:LED,ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+,,D4,SFH4550,Device:LED,ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+,,D5,LED,Device:LED,LED_THT:LED_D3.0mm
+,,H1,3.2mm,Mechanical:MountingHole_Pad,MountingHole:MountingHole_2.7mm_Pad
+,,H2,3.2mm,Mechanical:MountingHole_Pad,MountingHole:MountingHole_2.7mm_Pad
+,,J1,Conn_01x14,Connector_Generic:Conn_01x14,ukmarsbot:PinHeader_1x14_P2.54mm_Vertical_Longpads
+,,Q1,TEFT4300,Device:Q_Photo_NPN,ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey
+,,Q2,TEFT4300,Device:Q_Photo_NPN,ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey
+,,Q3,TEFT4300,Device:Q_Photo_NPN,ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey
+,,Q4,TEFT4300,Device:Q_Photo_NPN,ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey
+,,Q5,BC337,ukmarsbot:BC337,ukmarsbot:TO-92_Inline_Wide_HandSolder
+,,Q6,BC337,ukmarsbot:BC337,ukmarsbot:TO-92_Inline_Wide_HandSolder
+,,R1,10R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R2,10R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R3,10R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R4,10R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R5,1k8,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R6,1k8,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R7,1k8,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R8,1k8,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R9,100k,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R10,100k,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R11,33,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R12,1k0,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R13,390R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,R14,390R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+,,,,,
+,,,,,
+,,,,,
+Collated Components:,,,,,
+,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint
+1,2,"C1, C2","330uF, 16V",Device:C_Polarized,Capacitor_THT:CP_Radial_D10.0mm_P2.50mm
+2,4,"D1, D2, D3, D4",SFH4550,Device:LED,ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm
+3,1,D5,LED,Device:LED,LED_THT:LED_D3.0mm
+4,2,"H1, H2",3.2mm,Mechanical:MountingHole_Pad,MountingHole:MountingHole_2.7mm_Pad
+5,1,J1,Conn_01x14,Connector_Generic:Conn_01x14,ukmarsbot:PinHeader_1x14_P2.54mm_Vertical_Longpads
+6,4,"Q1, Q2, Q3, Q4",TEFT4300,Device:Q_Photo_NPN,ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey
+7,2,"Q5, Q6",BC337,ukmarsbot:BC337,ukmarsbot:TO-92_Inline_Wide_HandSolder
+8,4,"R1, R2, R3, R4",10R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+9,4,"R5, R6, R7, R8",1k8,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+10,2,"R9, R10",100k,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+11,1,R11,33,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+12,1,R12,1k0,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+13,2,"R13, R14",390R,Device:R,ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
