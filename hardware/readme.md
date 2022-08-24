@@ -8,4 +8,4 @@ It should be possible to upload the Gerber zip files directly to board manufactu
 
 ## Component Values
 
-NOTE that the actual sensor devices used, and their related component values and nominal suggestions and you are free to make changes as you wish. The values shown are nominal and are likely to need adjustment for your specific build.
+NOTE that the actual sensor devices used, and their related component values are nominal suggestions and you are free to make changes as you wish. The values shown are nominal and are likely to need adjustment for your specific build.
