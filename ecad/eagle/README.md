@@ -6,6 +6,5 @@ Each subfolder has the Eagle files and a PDF schematic from the appropriate comp
 
 Also present is the single library file used for all the components, a copy of the Sparkfun DRU used to validate the layout and a modified Seeed studios CAM file that was used to generate the gerbers.
 
-Zipped archives of the gerbers that were sent for manufacture are also included.
+Zipped archives of the gerbers that were sent for manufacture are to be found in the [hardware section](https://github.com/ukmars/ukmarsbot/tree/master/hardware)
 
-REV B boards/Gerbers have enlarged pads/holes

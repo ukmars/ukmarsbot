@@ -1,10 +1,11 @@
 # UKMARSBOT V1.3 alpha
 
-This directory holds version 1.3 of UKMARSBOT project files.
+This directory holds KiCad projects for Version 1.3 of UKMARSBOT and a number of sensor modules. 
 
-__Note that this is an untested version at present__
+__Note that V1.3 this is an untested version at present__
 
-Once samples have been tested, Gerbers will be available for anyone to download sets of boards.
+You can find corresponding Gerber files, schematics and BOM files in the [hardware section](Zipped archives of the gerbers that were sent for manufacture are to be found in the [hardware section](https://github.com/ukmars/ukmarsbot/tree/master/hardware)
+)
 
 Members of the UK Micromouse and Robotics Society (UKMARS) are entitled to a complimentary set of boards upon joining as a perk of membership. 
 
