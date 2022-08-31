@@ -1,72 +1,24 @@
-"Source:","/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/mainboard/mainboard.kicad_sch"
-"Date:","Mon 22 Aug 2022 16:02:40 BST"
-"Tool:","Eeschema 6.0.5"
-"Generator:","/app/share/kicad/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","34"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER","PARTREV","STANDARD"
-"","","C1","100n","Device:C","ukmarsbot:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02","~","","",""
-"","","C2","330uF, 16V","Device:C_Polarized","Capacitor_THT:CP_Radial_D8.0mm_P2.50mm","~","","",""
-"","","C3","330uF, 16V","Device:C_Polarized","Capacitor_THT:CP_Radial_D8.0mm_P2.50mm","~","","",""
-"","","D1","1N5401","Device:D","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","~","","",""
-"","","D3","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","",""
-"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"","","H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"","","H3","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"","","H4","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"","","H5","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"","","H6","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"","","IC1","74HC86","74xx:74HC86","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74HC86","","",""
-"","","J1","SENSORS","ukmarsbot:CONN_14LOCK_LONGPADS","ukmarsbot:1X14_LOCK_LONGPADS","","","",""
-"","","J2","CONN_06SILK_FEMALE_PTH","ukmarsbot:CONN_06LOCK_LONGPADS","ukmarsbot:1X06_LOCK_LONGPADS","","","",""
-"","","J3","CONN_06SILK_FEMALE_PTH","ukmarsbot:CONN_06LOCK_LONGPADS","ukmarsbot:1X06_LOCK_LONGPADS","","","",""
-"","","J4","POWER","Connector_Generic:Conn_01x02","Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical","~","","",""
-"","","J5","SERIAL","ukmarsbot:CONN_04LOCK_LONGPADS","ukmarsbot:1X04_LOCK_LONGPADS","","","",""
-"","","M1","Left Motor","ukmarsbot:GEARMOTOR","ukmarsbot:MINI-METAL-GEARMOTOR-WITH-BRACKET","~","","",""
-"","","M2","Right Motor","ukmarsbot:GEARMOTOR","ukmarsbot:MINI-METAL-GEARMOTOR-WITH-BRACKET","~","","",""
-"","","R1","10k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R2","10k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R3","4k7","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R4","2k2","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R5","1k0","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R6","470","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R7","15k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R8","15k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R10","10k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","R11","4k7","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"","","S1","sub-miniature, SPDT","ukmarsbot:SWITCH-SPDT-PTH-11.6X4.0MM","ukmarsbot:SW_1101M2S3CQE2","","","",""
-"","","S2","BUTTON","ukmarsbot:MOMENTARY-SWITCH-SPST-2","ukmarsbot:TACTILE_SWITCH_PTH_6.0MM","","","",""
-"","","S3","DIP-SW","ukmarsbot:DS04E","ukmarsbot:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile","","","",""
-"","","U1","Arduino_Nano","ukmarsbot:Arduino_Nano","ukmarsbot:Arduino_Nano","https://store.arduino.cc/usa/arduino-nano","","",""
-"","","U2","TB6612FNG-Module","ukmarsbot:TB6612FNG-Module","ukmarsbot:TB6612FNG-module","","Sparkfun Electronics","11-13-17","Manufacturer Recommendation"
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","MANUFACTURER","PARTREV","STANDARD"
-"1","1","C1","100n","Device:C","ukmarsbot:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02","~","","",""
-"2","2","C2, C3","330uF, 16V","Device:C_Polarized","Capacitor_THT:CP_Radial_D8.0mm_P2.50mm","~","","",""
-"3","1","D1","1N5401","Device:D","Diode_THT:D_DO-201AD_P15.24mm_Horizontal","~","","",""
-"4","1","D3","1N4148","Diode:1N4148","Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal","https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf","","",""
-"5","6","H1, H2, H3, H4, H5, H6","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~","","",""
-"6","1","IC1","74HC86","74xx:74HC86","Package_DIP:DIP-14_W7.62mm_LongPads","http://www.ti.com/lit/gpn/sn74HC86","","",""
-"7","1","J1","SENSORS","ukmarsbot:CONN_14LOCK_LONGPADS","ukmarsbot:1X14_LOCK_LONGPADS","","","",""
-"8","2","J2, J3","CONN_06SILK_FEMALE_PTH","ukmarsbot:CONN_06LOCK_LONGPADS","ukmarsbot:1X06_LOCK_LONGPADS","","","",""
-"9","1","J4","POWER","Connector_Generic:Conn_01x02","Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical","~","","",""
-"10","1","J5","SERIAL","ukmarsbot:CONN_04LOCK_LONGPADS","ukmarsbot:1X04_LOCK_LONGPADS","","","",""
-"11","1","M1","Left Motor","ukmarsbot:GEARMOTOR","ukmarsbot:MINI-METAL-GEARMOTOR-WITH-BRACKET","~","","",""
-"12","1","M2","Right Motor","ukmarsbot:GEARMOTOR","ukmarsbot:MINI-METAL-GEARMOTOR-WITH-BRACKET","~","","",""
-"13","3","R1, R2, R10","10k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"14","2","R3, R11","4k7","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"15","1","R4","2k2","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"16","1","R5","1k0","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"17","1","R6","470","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"18","2","R7, R8","15k","Device:R","ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~","","",""
-"19","1","S1","sub-miniature, SPDT","ukmarsbot:SWITCH-SPDT-PTH-11.6X4.0MM","ukmarsbot:SW_1101M2S3CQE2","","","",""
-"20","1","S2","BUTTON","ukmarsbot:MOMENTARY-SWITCH-SPST-2","ukmarsbot:TACTILE_SWITCH_PTH_6.0MM","","","",""
-"21","1","S3","DIP-SW","ukmarsbot:DS04E","ukmarsbot:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile","","","",""
-"22","1","U1","Arduino_Nano","ukmarsbot:Arduino_Nano","ukmarsbot:Arduino_Nano","https://store.arduino.cc/usa/arduino-nano","","",""
-"23","1","U2","TB6612FNG-Module","ukmarsbot:TB6612FNG-Module","ukmarsbot:TB6612FNG-module","","Sparkfun Electronics","11-13-17","Manufacturer Recommendation"
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J5";"1X04_LOCK_LONGPADS";1;"SERIAL";;;
+2;"R11,R3";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD";2;"4k7";;;
+3;"R10,R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD";3;"10k";;;
+4;"R8,R7";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD";2;"15k";;;
+5;"R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD";1;"470";;;
+6;"R5";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD";1;"1k0";;;
+7;"R4";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD";1;"2k2";;;
+8;"S3";"SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile";1;"DIP-SW";;;
+9;"IC1";"DIP-14_W7.62mm_LongPads";1;"74HC86";;;
+10;"S2";"TACTILE_SWITCH_PTH_6.0MM";1;"BUTTON";;;
+11;"H4,H1,H6,H2,H5,H3";"MountingHole_3.2mm_M3";6;"MountingHole";;;
+12;"U1";"Arduino_Nano";1;"Arduino_Nano";;;
+13;"C1";"C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02";1;"100n";;;
+14;"M2";"MINI-METAL-GEARMOTOR-WITH-BRACKET";1;"Right Motor";;;
+15;"M1";"MINI-METAL-GEARMOTOR-WITH-BRACKET";1;"Left Motor";;;
+16;"D3";"D_DO-35_SOD27_P7.62mm_Horizontal";1;"1N4148";;;
+17;"C2,C3";"CP_Radial_D8.0mm_P2.50mm";2;"330uF, 16V";;;
+18;"J3,J2";"1X06_LOCK_LONGPADS";2;"CONN_06SILK_FEMALE_PTH";;;
+19;"D1";"D_DO-201AD_P15.24mm_Horizontal";1;"1N5401";;;
+20;"J1";"1X14_LOCK_LONGPADS";1;"SENSORS";;;
+21;"U2";"TB6612FNG-module";1;"TB6612FNG-Module";;;
+22;"S1";"SW_1101M2S3CQE2";1;"sub-miniature, SPDT";;;
+23;"J4";"Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical";1;"POWER";;;
