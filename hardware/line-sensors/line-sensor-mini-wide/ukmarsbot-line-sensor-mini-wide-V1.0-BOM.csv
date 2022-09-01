@@ -1,63 +1,38 @@
-"Source:","/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/line-sensor-mini-wide/line-sensor-mini-wide.kicad_sch"
-"Date:","Mon 22 Aug 2022 15:16:06 BST"
-"Tool:","Eeschema 6.0.5"
-"Generator:","/app/share/kicad/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","37"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"","","C1","470uF","Device:C_Polarized","Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm","~"
-"","","D1","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D2","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D3","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D4","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D5","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D6","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","D7","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"","","H1","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
-"","","H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
-"","","J1","SENSORS","ukmarsbot:CONN_14LOCK_LONGPADS","ukmarsbot:PinHeader_1x14_P2.54mm_Vertical",""
-"","","Q1","BC337","ukmarsbot:BC337","ukmarsbot:TO-92_Inline_Wide_HandSolder","https://www.onsemi.com/pdf/datasheet/bc337-d.pdf"
-"","","Q2","BC337","ukmarsbot:BC337","ukmarsbot:TO-92_Inline_Wide_HandSolder","https://www.onsemi.com/pdf/datasheet/bc337-d.pdf"
-"","","Q3","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"","","Q4","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"","","Q5","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"","","Q6","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"","","Q7","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"","","Q8","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"","","R1","33R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R2","68R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R3","68R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R4","68R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R5","68R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R6","68R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R7","390","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R8","10k","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R9","390","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R10","10k","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R11","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R12","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R13","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R14","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R15","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R16","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R26","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"","","R27","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
-"1","1","C1","470uF","Device:C_Polarized","Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm","~"
-"2","7","D1, D2, D3, D4, D5, D6, D7","LED","Device:LED","LED_THT:LED_D3.0mm","~"
-"3","2","H1, H2","MountingHole","Mechanical:MountingHole","MountingHole:MountingHole_3.2mm_M3","~"
-"4","1","J1","SENSORS","ukmarsbot:CONN_14LOCK_LONGPADS","ukmarsbot:PinHeader_1x14_P2.54mm_Vertical",""
-"5","2","Q1, Q2","BC337","ukmarsbot:BC337","ukmarsbot:TO-92_Inline_Wide_HandSolder","https://www.onsemi.com/pdf/datasheet/bc337-d.pdf"
-"6","6","Q3, Q4, Q5, Q6, Q7, Q8","BPW85C","ukmarsbot:BPW85C","ukmarsbot:Phototransistor_3mm_Vertical_Clear","https://www.vishay.com/docs/81531/bpw85a.pdf"
-"7","1","R1","33R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"8","5","R2, R3, R4, R5, R6","68R","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"9","2","R7, R9","390","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"10","2","R8, R10","10k","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
-"11","8","R11, R12, R13, R14, R15, R16, R26, R27","2k0","Device:R","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal","~"
+Comment,Designator,Footprint,LCSC
+BC337,Q1,TO-92_Inline_Wide_HandSolder,
+68R,R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R14,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R13,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R12,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+68R,R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R16,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+68R,R4,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+MountingHole,H1,MountingHole_3.2mm_M3,
+LED,D7,LED_D3.0mm,
+68R,R5,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+390,R7,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R27,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+LED,D6,LED_D3.0mm,
+BC337,Q2,TO-92_Inline_Wide_HandSolder,
+2k0,R11,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R15,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+68R,R6,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+MountingHole,H2,MountingHole_3.2mm_M3,
+390,R9,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+10k,R10,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+470uF,C1,CP_Radial_D10.0mm_P2.50mm_P5.00mm,
+10k,R8,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+2k0,R26,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+33R,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
+LED,D1,LED_D3.0mm,
+LED,D4,LED_D3.0mm,
+BPW85C,Q7,Phototransistor_3mm_Vertical_Clear,
+BPW85C,Q5,Phototransistor_3mm_Vertical_Clear,
+BPW85C,Q4,Phototransistor_3mm_Vertical_Clear,
+LED,D3,LED_D3.0mm,
+BPW85C,Q8,Phototransistor_3mm_Vertical_Clear,
+LED,D5,LED_D3.0mm,
+SENSORS,J1,PinHeader_1x14_P2.54mm_Vertical,
+BPW85C,Q3,Phototransistor_3mm_Vertical_Clear,
+LED,D2,LED_D3.0mm,
+BPW85C,Q6,Phototransistor_3mm_Vertical_Clear,
