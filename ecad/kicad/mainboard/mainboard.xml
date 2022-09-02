@@ -793,7 +793,7 @@
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="ukmarsbot">
-      <uri>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/mainboard/../libraries/ukmarsbot.kicad_sym</uri>
+      <uri>${KIPRJMOD}/../libraries/ukmarsbot.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
