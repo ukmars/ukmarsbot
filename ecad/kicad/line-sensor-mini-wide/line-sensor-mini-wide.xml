@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/line-sensor-mini-wide/line-sensor-mini-wide.kicad_sch</source>
-    <date>Fri 02 Sep 2022 01:28:30 BST</date>
+    <date>Fri 02 Sep 2022 01:51:36 BST</date>
     <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -28,10 +28,12 @@
       <value>470uF</value>
       <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm</footprint>
       <fields>
-        <field name="Package">16V, 10mm Dia.</field>
+        <field name="Note">16V, 10mm Dia. Electrolytic</field>
+        <field name="Package">Axial Lead, 0.1" or 0.2"</field>
       </fields>
       <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="Package" value="16V, 10mm Dia."/>
+      <property name="Package" value="Axial Lead, 0.1&quot; or 0.2&quot;"/>
+      <property name="Note" value="16V, 10mm Dia. Electrolytic"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -42,10 +44,12 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
       <fields>
+        <field name="Note">IR or visible sensor emitter</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="IR or visible sensor emitter"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -56,10 +60,12 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
       <fields>
+        <field name="Note">IR or visible sensor emitter</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="IR or visible sensor emitter"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -70,10 +76,12 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
       <fields>
+        <field name="Note">IR or visible sensor emitter</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="IR or visible sensor emitter"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -84,10 +92,12 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
       <fields>
+        <field name="Note">IR or visible sensor emitter</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="IR or visible sensor emitter"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -98,10 +108,12 @@
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
       <fields>
+        <field name="Note">IR or visible sensor emitter</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="IR or visible sensor emitter"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -111,10 +123,12 @@
       <value>LED</value>
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <fields>
+        <field name="Note">3mm Indicator LED</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="3mm Indicator LED"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -124,49 +138,27 @@
       <value>LED</value>
       <footprint>LED_THT:LED_D3.0mm</footprint>
       <fields>
+        <field name="Note">3mm Indicator LED</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="3mm Indicator LED"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>db673803-a2fb-4d35-891a-0a4b42ae396b</tstamps>
     </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <fields>
-        <field name="Package">M3 clearance, 3.2mm</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Package" value="M3 clearance, 3.2mm"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d09f0856-2555-4c84-b13b-329c09a4e211</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
-      <fields>
-        <field name="Package">M3 clearance, 3.2mm</field>
-      </fields>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Package" value="M3 clearance, 3.2mm"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9b44e55e-7f5b-4db4-a07f-cc214f1b97ad</tstamps>
-    </comp>
     <comp ref="J1">
       <value>SENSORS</value>
       <footprint>ukmarsbot:PinHeader_1x14_P2.54mm_Vertical</footprint>
       <fields>
+        <field name="Note">Pin Header, socket on sensor board</field>
         <field name="Package">14 pin 0.1" header</field>
       </fields>
       <libsource lib="ukmarsbot" part="CONN_14LOCK_LONGPADS" description=""/>
       <property name="Package" value="14 pin 0.1&quot; header"/>
+      <property name="Note" value="Pin Header, socket on sensor board"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -177,10 +169,12 @@
       <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
       <fields>
+        <field name="Note">0.8A NPN or FET</field>
         <field name="Package">TO92</field>
       </fields>
       <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Package" value="TO92"/>
+      <property name="Note" value="0.8A NPN or FET"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -191,10 +185,12 @@
       <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
       <fields>
+        <field name="Note">0.8A NPN or FET</field>
         <field name="Package">TO92</field>
       </fields>
       <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
       <property name="Package" value="TO92"/>
+      <property name="Note" value="0.8A NPN or FET"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -205,10 +201,12 @@
       <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
       <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
       <fields>
+        <field name="Note">Must be matched to emitters</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="Must be matched to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -219,10 +217,12 @@
       <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
       <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
       <fields>
+        <field name="Note">Must be matched to emitters</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="Must be matched to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,10 +233,12 @@
       <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
       <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
       <fields>
+        <field name="Note">Must be matched to emitters</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="Must be matched to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -247,10 +249,12 @@
       <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
       <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
       <fields>
+        <field name="Note">Must be matched to emitters</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="Must be matched to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -261,10 +265,12 @@
       <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
       <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
       <fields>
+        <field name="Note">Must be matched to emitters</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="Must be matched to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -275,10 +281,12 @@
       <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
       <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
       <fields>
+        <field name="Note">Must be matched to emitters</field>
         <field name="Package">T-1 (3mm)</field>
       </fields>
       <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
       <property name="Package" value="T-1 (3mm)"/>
+      <property name="Note" value="Must be matched to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -288,10 +296,12 @@
       <value>33R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film </field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -301,10 +311,12 @@
       <value>68R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -314,10 +326,12 @@
       <value>68R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -327,10 +341,12 @@
       <value>68R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -340,10 +356,12 @@
       <value>68R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -353,10 +371,12 @@
       <value>68R</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -366,10 +386,12 @@
       <value>390</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -379,10 +401,12 @@
       <value>10k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -392,10 +416,12 @@
       <value>390</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -405,10 +431,12 @@
       <value>10k</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -418,10 +446,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -431,10 +461,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -444,10 +476,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -457,10 +491,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -470,10 +506,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -483,10 +521,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -496,10 +536,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -509,10 +551,12 @@
       <value>2k0</value>
       <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
       <fields>
+        <field name="Note">¼W or ⅛W, 5% or 10%, carbon or metal film</field>
         <field name="Package">¼ Watt, 0.3"</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Note" value="¼W or ⅛W, 5% or 10%, carbon or metal film"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
