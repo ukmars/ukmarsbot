@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/wall-sensor-advanced/ukmarsbot-wall-sensor-advanced.kicad_sch</source>
-    <date>Tue 23 Aug 2022 23:22:19 BST</date>
+    <date>Fri 02 Sep 2022 14:56:54 BST</date>
     <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -45,7 +45,11 @@
     <comp ref="D1">
       <value>SFH4550</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <fields>
+        <field name="Note">Ultra-bright red alternative but detectors must match</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="Ultra-bright red alternative but detectors must match"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -54,7 +58,11 @@
     <comp ref="D2">
       <value>SFH4550</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <fields>
+        <field name="Note">Ultra-bright red alternative but detectors must match</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="Ultra-bright red alternative but detectors must match"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,7 +71,11 @@
     <comp ref="D3">
       <value>SFH4550</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <fields>
+        <field name="Note">Ultra-bright red alternative but detectors must match</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="Ultra-bright red alternative but detectors must match"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,7 +84,11 @@
     <comp ref="D4">
       <value>SFH4550</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm</footprint>
+      <fields>
+        <field name="Note">Ultra-bright red alternative but detectors must match</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="Ultra-bright red alternative but detectors must match"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -81,7 +97,11 @@
     <comp ref="D5">
       <value>LED</value>
       <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Note">Any small LED</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Note" value="Any small LED"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -89,7 +109,7 @@
     </comp>
     <comp ref="H1">
       <value>3.2mm</value>
-      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -98,7 +118,7 @@
     </comp>
     <comp ref="H2">
       <value>3.2mm</value>
-      <footprint>MountingHole:MountingHole_2.7mm_Pad</footprint>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
       <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -108,7 +128,11 @@
     <comp ref="J1">
       <value>Conn_01x14</value>
       <footprint>ukmarsbot:PinHeader_1x14_P2.54mm_Vertical_Longpads</footprint>
+      <fields>
+        <field name="Note">14 way, 0.1" header chack polarity with mainboard</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x14" description="Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Note" value="14 way, 0.1&quot; header chack polarity with mainboard"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,7 +141,11 @@
     <comp ref="Q1">
       <value>TEFT4300</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <fields>
+        <field name="Note">Spectral match to emitters</field>
+      </fields>
       <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Note" value="Spectral match to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -126,7 +154,11 @@
     <comp ref="Q2">
       <value>TEFT4300</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <fields>
+        <field name="Note">Spectral match to emitters</field>
+      </fields>
       <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Note" value="Spectral match to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -135,7 +167,11 @@
     <comp ref="Q3">
       <value>TEFT4300</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <fields>
+        <field name="Note">Spectral match to emitters</field>
+      </fields>
       <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Note" value="Spectral match to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -144,7 +180,11 @@
     <comp ref="Q4">
       <value>TEFT4300</value>
       <footprint>ukmarsbot:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey</footprint>
+      <fields>
+        <field name="Note">Spectral match to emitters</field>
+      </fields>
       <libsource lib="Device" part="Q_Photo_NPN" description="NPN phototransistor, collector/emitter"/>
+      <property name="Note" value="Spectral match to emitters"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -154,7 +194,11 @@
       <value>BC337</value>
       <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
+      <fields>
+        <field name="Note">A MOSFET could be substitutes</field>
+      </fields>
       <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Note" value="A MOSFET could be substitutes"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -164,7 +208,11 @@
       <value>BC337</value>
       <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
+      <fields>
+        <field name="Note">A MOSFET could be substitutes</field>
+      </fields>
       <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Note" value="A MOSFET could be substitutes"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -172,8 +220,12 @@
     </comp>
     <comp ref="R1">
       <value>10R</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to emitters used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to emitters used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -181,8 +233,12 @@
     </comp>
     <comp ref="R2">
       <value>10R</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to emitters used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to emitters used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -190,8 +246,12 @@
     </comp>
     <comp ref="R3">
       <value>10R</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to emitters used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to emitters used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -199,8 +259,12 @@
     </comp>
     <comp ref="R4">
       <value>10R</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to emitters used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to emitters used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -208,8 +272,12 @@
     </comp>
     <comp ref="R5">
       <value>1k8</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to detectors used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to detectors used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -217,8 +285,12 @@
     </comp>
     <comp ref="R6">
       <value>1k8</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to detectors used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to detectors used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -226,8 +298,12 @@
     </comp>
     <comp ref="R7">
       <value>1k8</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to detectors used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to detectors used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -235,8 +311,12 @@
     </comp>
     <comp ref="R8">
       <value>1k8</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">Adjust on test according to detectors used</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="Adjust on test according to detectors used"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -244,7 +324,7 @@
     </comp>
     <comp ref="R9">
       <value>100k</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -253,7 +333,7 @@
     </comp>
     <comp ref="R10">
       <value>100k</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -262,7 +342,7 @@
     </comp>
     <comp ref="R11">
       <value>33</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -271,7 +351,7 @@
     </comp>
     <comp ref="R12">
       <value>1k0</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -280,7 +360,7 @@
     </comp>
     <comp ref="R13">
       <value>390R</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -289,7 +369,7 @@
     </comp>
     <comp ref="R14">
       <value>390R</value>
-      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ukmarsbot-wall-sensor-advanced.kicad_sch"/>
@@ -457,7 +537,7 @@
       <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="4" name="A0_LF">
+    <net code="4" name="A0_RF">
       <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
