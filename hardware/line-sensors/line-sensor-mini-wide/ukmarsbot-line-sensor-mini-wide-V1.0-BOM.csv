@@ -1,38 +1,16 @@
-Comment,Designator,Footprint,LCSC
-BC337,Q1,TO-92_Inline_Wide_HandSolder,
-68R,R3,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R14,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R13,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R12,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-68R,R2,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R16,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-68R,R4,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-MountingHole,H1,MountingHole_3.2mm_M3,
-LED,D7,LED_D3.0mm,
-68R,R5,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-390,R7,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R27,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-LED,D6,LED_D3.0mm,
-BC337,Q2,TO-92_Inline_Wide_HandSolder,
-2k0,R11,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R15,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-68R,R6,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-MountingHole,H2,MountingHole_3.2mm_M3,
-390,R9,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-10k,R10,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-470uF,C1,CP_Radial_D10.0mm_P2.50mm_P5.00mm,
-10k,R8,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-2k0,R26,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-33R,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,
-LED,D1,LED_D3.0mm,
-LED,D4,LED_D3.0mm,
-BPW85C,Q7,Phototransistor_3mm_Vertical_Clear,
-BPW85C,Q5,Phototransistor_3mm_Vertical_Clear,
-BPW85C,Q4,Phototransistor_3mm_Vertical_Clear,
-LED,D3,LED_D3.0mm,
-BPW85C,Q8,Phototransistor_3mm_Vertical_Clear,
-LED,D5,LED_D3.0mm,
-SENSORS,J1,PinHeader_1x14_P2.54mm_Vertical,
-BPW85C,Q3,Phototransistor_3mm_Vertical_Clear,
-LED,D2,LED_D3.0mm,
-BPW85C,Q6,Phototransistor_3mm_Vertical_Clear,
+"Ref","Value","Qty","Name","Description","Package","Datasheet","Vendor"
+"C1","470uF",1,"C_Polarized","Polarized capacitor","16V, 10mm Dia.","~",""
+"D1, D2, D3, D4, D5","L-934F3C",5,"LED","Light emitting diode","T-1 (3mm)","https://www.farnell.com/datasheets/1683588.pdf",""
+"D6, D7","LED",2,"LED","Light emitting diode","T-1 (3mm)","~",""
+"H1, H2","MountingHole",2,"MountingHole","Mounting Hole without connection","M3 clearance, 3.2mm","~",""
+"J1","SENSORS",1,"CONN_14LOCK_LONGPADS","","14 pin 0.1"" header","",""
+"Q1, Q2","BC337",2,"BC337","0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92","TO92","https://www.onsemi.com/pdf/datasheet/bc337-d.pdf",""
+"Q3, Q4, Q5, Q6, Q7, Q8","BPW85C",6,"BPW85C","Phototransistor NPN","T-1 (3mm)","https://www.vishay.com/docs/81531/bpw85a.pdf",""
+"R1","33R",1,"R","Resistor","¼ Watt, 0.3""","~",""
+"R2, R3, R4, R5, R6","68R",5,"R","Resistor","¼ Watt, 0.3""","~",""
+"R7, R9","390",2,"R","Resistor","¼ Watt, 0.3""","~",""
+"R8, R10","10k",2,"R","Resistor","¼ Watt, 0.3""","~",""
+"R11, R12, R13, R14, R15, R16, R26, R27","2k0",8,"R","Resistor","¼ Watt, 0.3""","~",""
+""
+"# Date:  Fri 02 Sep 2022 01:25:27 BST"
+"# Tool:  Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1"

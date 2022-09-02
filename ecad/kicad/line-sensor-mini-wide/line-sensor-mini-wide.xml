@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/line-sensor-mini-wide/line-sensor-mini-wide.kicad_sch</source>
+    <date>Fri 02 Sep 2022 01:25:27 BST</date>
+    <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UKMARSBOT Line Sensor Mini</title>
+        <company>UKMARS</company>
+        <rev>1.0</rev>
+        <date>2022-08-22</date>
+        <source>line-sensor-mini-wide.kicad_sch</source>
+        <comment number="1" value="Small line sensor for half size track"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P2.50mm_P5.00mm</footprint>
+      <fields>
+        <field name="Package">16V, 10mm Dia.</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Package" value="16V, 10mm Dia."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>252a6d01-42cf-4521-9abe-0fb227ad3ca3</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>L-934F3C</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c69217-bed6-4305-b900-13cfda560c34</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>L-934F3C</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d307b3a-d51e-4b07-9210-06a8c49750d4</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>L-934F3C</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d7af46e-ce74-4d89-998b-f32c6c0dff62</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>L-934F3C</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5f8c19e-c389-454f-bc91-a748a2a892ee</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>L-934F3C</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>https://www.farnell.com/datasheets/1683588.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c82a6608-826b-454b-8512-715dfccf15cb</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a4a79e9-58c6-49f0-9f76-23dfac16150b</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db673803-a2fb-4d35-891a-0a4b42ae396b</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Package">M3 clearance, 3.2mm</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Package" value="M3 clearance, 3.2mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d09f0856-2555-4c84-b13b-329c09a4e211</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Package">M3 clearance, 3.2mm</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Package" value="M3 clearance, 3.2mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b44e55e-7f5b-4db4-a07f-cc214f1b97ad</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SENSORS</value>
+      <footprint>ukmarsbot:PinHeader_1x14_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Package">14 pin 0.1" header</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="CONN_14LOCK_LONGPADS" description=""/>
+      <property name="Package" value="14 pin 0.1&quot; header"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7fa37727-6b4b-4c14-8485-4ebdd85ac4f3</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BC337</value>
+      <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
+      <fields>
+        <field name="Package">TO92</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Package" value="TO92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b1a4cfa-de6f-45b5-ba67-e09f8f9908d6</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BC337</value>
+      <footprint>ukmarsbot:TO-92_Inline_Wide_HandSolder</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</datasheet>
+      <fields>
+        <field name="Package">TO92</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BC337" description="0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Package" value="TO92"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3e16f7d-a558-448d-a604-723f5828b488</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BPW85C</value>
+      <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
+      <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc4cf38d-fda3-4ba5-a3a5-b4eb060fbbeb</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BPW85C</value>
+      <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
+      <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61338cca-0cef-4610-887c-bd23eb1f64cd</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BPW85C</value>
+      <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
+      <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d35f06a4-db02-4b58-a521-483567b6bbc5</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BPW85C</value>
+      <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
+      <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41ee8465-1539-48be-9422-178d32c289f9</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BPW85C</value>
+      <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
+      <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8838d707-f1e7-4dbc-a5c5-c77f975c0895</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>BPW85C</value>
+      <footprint>ukmarsbot:Phototransistor_3mm_Vertical_Clear</footprint>
+      <datasheet>https://www.vishay.com/docs/81531/bpw85a.pdf</datasheet>
+      <fields>
+        <field name="Package">T-1 (3mm)</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="BPW85C" description="Phototransistor NPN"/>
+      <property name="Package" value="T-1 (3mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db82a024-0bed-49b0-a7b7-5ec26891aa6c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>33R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e1a1e58-91b2-4813-89b0-9363148b64b4</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b098c70-9f62-4919-b106-ac07f6e36736</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5f6a174-6007-45fc-822d-daa62bc18533</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2904d4fa-bcbd-4782-b109-1224f4409086</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6466becd-c7f6-4473-8f48-77e7085ea829</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>68R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7d98d53-8224-4c80-887a-bfbca00ae59e</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>390</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d33b8249-7684-4f8c-92df-3584256151b8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d34b59ae-117c-4aa9-9ad7-1483bed33243</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>390</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>172f0d3d-f3b6-4967-80bf-8f57b48beefb</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b0c572f-a9c9-479d-90c8-60cc5f5d2ab9</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f867006-e954-4ad2-bc56-069f5fecf92e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4fa705c-dc09-408a-afc9-3012b3555706</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15367936-edfd-4988-88b2-6b98934434bc</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6a3acae-8cf5-4452-a81e-38539080315c</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2c3432c-f703-40c9-93e0-a6349a935998</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc809752-15e6-4497-bcca-9bb9883f640d</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29dda823-889a-41f2-bf5c-6dc580262810</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>2k0</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <fields>
+        <field name="Package">¼ Watt, 0.3"</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Package" value="¼ Watt, 0.3&quot;"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="line-sensor-mini-wide.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb203e84-04d0-4897-a516-8bf0cc5a0929</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="ukmarsbot" part="BC337">
+      <description>0.8A Ic, 45V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC337</field>
+        <field name="Footprint">ukmarsbot:TO-92_Inline_Wide_HandSolder</field>
+        <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/bc337-d.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="BPW85C">
+      <description>Phototransistor NPN</description>
+      <docs>https://www.vishay.com/docs/81531/bpw85a.pdf</docs>
+      <footprints>
+        <fp>LED*3.0mm*Clear*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">ukmarsbot:Phototransistor_3mm_Vertical_Clear</field>
+        <field name="Datasheet">https://www.vishay.com/docs/81531/bpw85a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="CONN_14LOCK_LONGPADS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_14LOCK_LONGPADS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="ukmarsbot">
+      <uri>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/line-sensor-mini-wide/../libraries/ukmarsbot.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V_EMITTERS">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="/marker_emitters">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="3" name="/sensor_emitters">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="4" name="5V">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="A0_START_MARKER">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="A1_LINE_1">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="A2_LINE_2">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="A3_LINE_3">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="A4_LINE_4">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="A5_LEFT_MARKER">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="D6_LED_RIGHT">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="12" name="D11_LED_LEFT">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="13" name="D12_EMITTERS">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(R6-Pad1)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J1-Pad13)">
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(J1-Pad14)">
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
