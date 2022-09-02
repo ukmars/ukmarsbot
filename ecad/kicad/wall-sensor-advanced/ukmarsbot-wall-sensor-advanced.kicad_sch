@@ -1936,7 +1936,7 @@
     (property "Value" "3.2mm" (id 1) (at 44.45 43.1038 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_Pad" (id 2) (at 41.91 43.18 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad" (id 2) (at 41.91 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 43.18 0)
@@ -1954,7 +1954,7 @@
     (property "Value" "3.2mm" (id 1) (at 44.45 55.8038 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "MountingHole:MountingHole_2.7mm_Pad" (id 2) (at 41.91 55.88 0)
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad" (id 2) (at 41.91 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 41.91 55.88 0)
@@ -2348,10 +2348,10 @@
       (reference "D5") (unit 1) (value "LED") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-000060b03e53"
-      (reference "H1") (unit 1) (value "3.2mm") (footprint "MountingHole:MountingHole_2.7mm_Pad")
+      (reference "H1") (unit 1) (value "3.2mm") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
     )
     (path "/00000000-0000-0000-0000-000060b04090"
-      (reference "H2") (unit 1) (value "3.2mm") (footprint "MountingHole:MountingHole_2.7mm_Pad")
+      (reference "H2") (unit 1) (value "3.2mm") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad")
     )
     (path "/00000000-0000-0000-0000-000060b1cfe1"
       (reference "J1") (unit 1) (value "Conn_01x14") (footprint "ukmarsbot:PinHeader_1x14_P2.54mm_Vertical_Longpads")
