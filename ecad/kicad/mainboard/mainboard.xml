@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/mainboard/mainboard.kicad_sch</source>
+    <date>Fri 02 Sep 2022 10:02:35 BST</date>
+    <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>UKMARRBOT Mainboard</title>
+        <company>UKMARS</company>
+        <rev>1.3alpha</rev>
+        <date>2022-08-20</date>
+        <source>mainboard.kicad_sch</source>
+        <comment number="1" value="Peter Harrison"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>ukmarsbot:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>974003c9-a545-4831-9703-76fab7bb58ee</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>330uF, 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Note">Maximum height is 10mm</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Note" value="Maximum height is 10mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf4cf4dc-964e-4e35-ad8a-20e4cc0f56d7</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>330uF, 16V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P2.50mm</footprint>
+      <fields>
+        <field name="Note">Maximum height is 10mm</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Note" value="Maximum height is 10mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>822474fc-f5d7-4a86-a58f-cc48a4acb148</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5401</value>
+      <footprint>Diode_THT:D_DO-201AD_P15.24mm_Horizontal</footprint>
+      <fields>
+        <field name="Note">&gt; 2A rectifier. Shottky is good</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Note" value="&gt; 2A rectifier. Shottky is good"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>854a8875-d907-4fd9-bd9f-d5629d75fcac</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19a131b5-0425-46e3-8219-8bfd785eef28</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Note">Check finished size is M3 (3.2mm)</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Note" value="Check finished size is M3 (3.2mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc0bfa2d-8e97-4239-8fea-fc713b9750e0</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Note">Check finished size is M3 (3.2mm)</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Note" value="Check finished size is M3 (3.2mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb4e89f0-1d7c-437a-aed8-64f86da5d5be</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Note">Check finished size is M3 (3.2mm)</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Note" value="Check finished size is M3 (3.2mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f1b992c-589d-4950-aca9-a939f6e742a4</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Note">Check finished size is M3 (3.2mm)</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Note" value="Check finished size is M3 (3.2mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>865301db-2325-4385-92b8-a436a149e286</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Note">Check finished size is M3 (3.2mm)</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Note" value="Check finished size is M3 (3.2mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2d7f4f3-be03-49a8-84ed-d4db5647a76e</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Note">Check finished size is M3 (3.2mm)</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Note" value="Check finished size is M3 (3.2mm)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4046656-9af6-49f9-ad02-d1a389c36423</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>74HC86</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/sn74HC86</datasheet>
+      <libsource lib="74xx" part="74HC86" description="Quad 2-input XOR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92584da9-d5db-4f68-a11d-f9aee99639bb 6ce108c9-a3af-4009-9386-a52e62b85247 6a00dd5a-bc6a-4fbb-9183-e9a21b92d384 5d2c2a18-4d21-40c4-978e-67e349ee021c 21e06281-fc72-410f-97b4-197ee21f51fd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>SENSORS</value>
+      <footprint>ukmarsbot:1X14_LOCK_LONGPADS</footprint>
+      <fields>
+        <field name="Note">14 pin header, 0.1", male</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="CONN_14LOCK_LONGPADS" description=""/>
+      <property name="Note" value="14 pin header, 0.1&quot;, male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec8225dd-687c-4096-b54f-bc4324524eeb</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_06SILK_FEMALE_PTH</value>
+      <footprint>ukmarsbot:1X06_LOCK_LONGPADS</footprint>
+      <fields>
+        <field name="Note">6 pin header, 0.1", male</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="CONN_06LOCK_LONGPADS" description=""/>
+      <property name="Note" value="6 pin header, 0.1&quot;, male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc534ece-987e-43f3-ac10-02f6b13c9780</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_06SILK_FEMALE_PTH</value>
+      <footprint>ukmarsbot:1X06_LOCK_LONGPADS</footprint>
+      <fields>
+        <field name="Note">6 pin header, 0.1", male</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="CONN_06LOCK_LONGPADS" description=""/>
+      <property name="Note" value="6 pin header, 0.1&quot;, male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f67e3d6-5854-4f48-a648-8c6a9df476be</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>POWER</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Note">0.1" pitch, polarised, any type</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Note" value="0.1&quot; pitch, polarised, any type"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79790fb4-9859-4c1c-a42e-f93f2e806d44</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>SERIAL</value>
+      <footprint>ukmarsbot:1X04_LOCK_LONGPADS</footprint>
+      <fields>
+        <field name="Note">4 pin, 0.1", male</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="CONN_04LOCK_LONGPADS" description=""/>
+      <property name="Note" value="4 pin, 0.1&quot;, male"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54fe325a-0ae5-4769-9633-a4aac3565c5b</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Left Motor</value>
+      <footprint>ukmarsbot:MINI-METAL-GEARMOTOR-WITH-BRACKET</footprint>
+      <fields>
+        <field name="Note">commercial mounts need bushing for screws</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="GEARMOTOR" description="DC Motor"/>
+      <property name="Note" value="commercial mounts need bushing for screws"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8f7abb4-0d71-4d07-b1e5-101a31ff7142</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Right Motor</value>
+      <footprint>ukmarsbot:MINI-METAL-GEARMOTOR-WITH-BRACKET</footprint>
+      <fields>
+        <field name="Note">commercial mounts need bushing for screws</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="GEARMOTOR" description="DC Motor"/>
+      <property name="Note" value="commercial mounts need bushing for screws"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd27c346-880c-4333-bc75-e90b9e47bfd2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e6a31d8-da64-439f-970e-591de48617a0</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>412dd346-5075-4419-be0d-bf3f31c29907</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8290c828-8e38-4225-be08-a8af654d7bdd</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d88df602-0039-4964-be9e-02ef1bde45d4</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k0</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12bf2296-306d-483a-86da-45d5850ec863</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>410c1284-b5db-4d53-9744-6756a777d596</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>15k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f6d8026-88d7-4db1-9273-bc8270850418</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>15k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62359ea0-0ee0-4e05-b793-eb25752a39f7</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10dfea55-4def-445e-b233-52b194366676</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4k7</value>
+      <footprint>ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD</footprint>
+      <fields>
+        <field name="Note">any type, but small, 0.2" span</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Note" value="any type, but small, 0.2&quot; span"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c389bd4-3c3f-4b2d-a7ca-5c224974629f</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>sub-miniature, SPDT</value>
+      <footprint>ukmarsbot:SW_1101M2S3CQE2</footprint>
+      <fields>
+        <field name="Note">Toggle or slide, 0.1" pitch pins</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="SWITCH-SPDT-PTH-11.6X4.0MM" description=""/>
+      <property name="Note" value="Toggle or slide, 0.1&quot; pitch pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3713f85-2a22-40fc-8498-9a1d5ba496c5</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>BUTTON</value>
+      <footprint>ukmarsbot:TACTILE_SWITCH_PTH_6.0MM</footprint>
+      <fields>
+        <field name="Note">Check orientation</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="MOMENTARY-SWITCH-SPST-2" description=""/>
+      <property name="Note" value="Check orientation"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0feb225-71a8-4533-9b0a-f0eabf97a0e5</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>DIP-SW</value>
+      <footprint>ukmarsbot:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile</footprint>
+      <fields>
+        <field name="Note">Check orientation. On is towards front</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="DS04E" description=""/>
+      <property name="Note" value="Check orientation. On is towards front"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d9b6980-7335-4b4e-9720-0e3673d0da27 87298c91-8a53-484b-8a7b-618e9c18bfa9 e5b02a74-a494-4428-92e3-5e194f444a1d 3c46a616-93e5-4817-b384-5c8ee63c6474</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Arduino_Nano</value>
+      <footprint>ukmarsbot:Arduino_Nano</footprint>
+      <datasheet>https://store.arduino.cc/usa/arduino-nano</datasheet>
+      <libsource lib="ukmarsbot" part="Arduino_Nano" description="Arduino Nano"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec225f82-f356-4202-9262-431630fb20cf</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TB6612FNG-Module</value>
+      <footprint>ukmarsbot:TB6612FNG-module</footprint>
+      <datasheet>https://cdn.shopify.com/s/files/1/0174/1800/files/TB6612FNG_3e2152f9-ac47-436b-bb2d-0abf1ce342e0.pdf?15448876658223299941</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Sparkfun Electronics</field>
+        <field name="Note">Check orientation. Only Sparkfun layout supported</field>
+        <field name="PARTREV">11-13-17</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="ukmarsbot" part="TB6612FNG-Module" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="MANUFACTURER" value="Sparkfun Electronics"/>
+      <property name="PARTREV" value="11-13-17"/>
+      <property name="Note" value="Check orientation. Only Sparkfun layout supported"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="mainboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f034836-35df-4ea4-8d3b-c034ec7a2984</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC86">
+      <description>Quad 2-input XOR</description>
+      <docs>http://www.ti.com/lit/gpn/sn74HC86</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC86</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/sn74HC86</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+        <pin num="3" name="" type="output"/>
+        <pin num="4" name="" type="input"/>
+        <pin num="5" name="" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="" type="input"/>
+        <pin num="10" name="" type="input"/>
+        <pin num="11" name="" type="output"/>
+        <pin num="12" name="" type="input"/>
+        <pin num="13" name="" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="ukmarsbot" part="Arduino_Nano">
+      <description>Arduino Nano</description>
+      <docs>https://store.arduino.cc/usa/arduino-nano</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Arduino_Nano</field>
+        <field name="Footprint">ukmarsbot:Arduino_Nano</field>
+        <field name="Datasheet">https://store.arduino.cc/usa/arduino-nano</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D1/TX" type="bidirectional"/>
+        <pin num="2" name="D0/RX" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="~D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="~D5" type="bidirectional"/>
+        <pin num="9" name="~D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="~D9" type="bidirectional"/>
+        <pin num="13" name="~D10" type="bidirectional"/>
+        <pin num="14" name="~D11" type="bidirectional"/>
+        <pin num="15" name="D12" type="bidirectional"/>
+        <pin num="16" name="D13" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0/D14" type="bidirectional"/>
+        <pin num="20" name="A1/D15" type="bidirectional"/>
+        <pin num="21" name="A2/D16" type="bidirectional"/>
+        <pin num="22" name="A3/D17" type="bidirectional"/>
+        <pin num="23" name="A4/D18" type="bidirectional"/>
+        <pin num="24" name="A5/D19" type="bidirectional"/>
+        <pin num="25" name="A6/D20" type="bidirectional"/>
+        <pin num="26" name="A7/D21" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="CONN_04LOCK_LONGPADS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_04LOCK_LONGPADS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="CONN_06LOCK_LONGPADS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_06LOCK_LONGPADS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="CONN_14LOCK_LONGPADS">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_14LOCK_LONGPADS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="DS04E">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">DS04E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="GEARMOTOR">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">GEARMOTOR</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="ukmarsbot" part="MOMENTARY-SWITCH-SPST-2">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MOMENTARY-SWITCH-SPST-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="SWITCH-SPDT-PTH-11.6X4.0MM">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">SWITCH-SPDT-PTH-11.6X4.0MM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="O" type="passive"/>
+        <pin num="2" name="P" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ukmarsbot" part="TB6612FNG-Module">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TB6612FNG-Module</field>
+        <field name="Footprint">MODULE_ROB-14450</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MANUFACTURER">Sparkfun Electronics</field>
+        <field name="PARTREV">11-13-17</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VM" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="A01" type="output"/>
+        <pin num="5" name="A02" type="output"/>
+        <pin num="6" name="B02" type="output"/>
+        <pin num="7" name="B01" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="PWMB" type="input"/>
+        <pin num="11" name="BI2" type="input"/>
+        <pin num="12" name="BI1" type="input"/>
+        <pin num="13" name="STBY" type="input"/>
+        <pin num="14" name="AI1" type="input"/>
+        <pin num="15" name="AI2" type="input"/>
+        <pin num="16" name="PWMA" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/symbols//74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="ukmarsbot">
+      <uri>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/mainboard/../libraries/ukmarsbot.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="2" name="/BATTERY_VOLTS">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="A7/D21" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/D13">
+      <node ref="U1" pin="16" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/EMITTER_A">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="~D11" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/EMITTER_B">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/FUNCTION_SELECT">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="S3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="A6/D20" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/LEFT_A">
+      <node ref="IC1" pin="1" pintype="input"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="8" name="/LEFT_B">
+      <node ref="IC1" pin="2" pintype="input"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/LEFT_CLK_A">
+      <node ref="IC1" pin="3" pintype="output"/>
+      <node ref="U1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/LEFT_DIR">
+      <node ref="IC1" pin="10" pintype="input"/>
+      <node ref="U1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="AI1" pintype="input"/>
+    </net>
+    <net code="11" name="/LEFT_MOTOR_1">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="A01" pintype="output"/>
+    </net>
+    <net code="12" name="/LEFT_MOTOR_2">
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="A02" pintype="output"/>
+    </net>
+    <net code="13" name="/LEFT_PWM">
+      <node ref="U1" pin="12" pinfunction="~D9" pintype="bidirectional"/>
+      <node ref="U2" pin="16" pinfunction="PWMA" pintype="input"/>
+    </net>
+    <net code="14" name="/PWR_IN">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="P" pintype="passive"/>
+    </net>
+    <net code="15" name="/RIGHT_A">
+      <node ref="IC1" pin="4" pintype="input"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/RIGHT_B">
+      <node ref="IC1" pin="5" pintype="input"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="~D5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/RIGHT_CLK_A">
+      <node ref="IC1" pin="6" pintype="output"/>
+      <node ref="U1" pin="6" pinfunction="~D3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/RIGHT_DIR">
+      <node ref="IC1" pin="13" pintype="input"/>
+      <node ref="U1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="BI2" pintype="input"/>
+    </net>
+    <net code="19" name="/RIGHT_MOTOR_1">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="B01" pintype="output"/>
+    </net>
+    <net code="20" name="/RIGHT_MOTOR_2">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="B02" pintype="output"/>
+    </net>
+    <net code="21" name="/RIGHT_PWM">
+      <node ref="U1" pin="13" pinfunction="~D10" pintype="bidirectional"/>
+      <node ref="U2" pin="10" pinfunction="PWMB" pintype="input"/>
+    </net>
+    <net code="22" name="/RXD">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="D0/RX" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/RXD_BT">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="24" name="/SENSOR_0">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="A0/D14" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/SENSOR_1">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="A1/D15" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/SENSOR_2">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="A2/D16" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/SENSOR_3">
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="A3/D17" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/SENSOR_4">
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="A4/D18" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/SENSOR_5">
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="A5/D19" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/SW_PWR">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="31" name="/TXD">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="D1/TX" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/TXD_BT">
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/USER_IO">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~D6" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/V_BATT">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VM" pintype="power_in"/>
+    </net>
+    <net code="35" name="/{slash}LEFT_DIR">
+      <node ref="IC1" pin="8" pintype="output"/>
+      <node ref="U2" pin="15" pinfunction="AI2" pintype="input"/>
+    </net>
+    <net code="36" name="/{slash}RIGHT_DIR">
+      <node ref="IC1" pin="11" pintype="output"/>
+      <node ref="U2" pin="12" pinfunction="BI1" pintype="input"/>
+    </net>
+    <net code="37" name="5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="12" pintype="input"/>
+      <node ref="IC1" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC1" pin="9" pintype="input"/>
+      <node ref="J1" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="S2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="U2" pin="13" pinfunction="STBY" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="38" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="J1" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="39" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S3" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="S3" pin="8" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="S3" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="S3" pin="7" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="S3" pin="4" pinfunction="1" pintype="passive"/>
+      <node ref="S3" pin="6" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="S3" pin="5" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="43" name="unconnected-(S1-Pad1)">
+      <node ref="S1" pin="1" pinfunction="O" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-Pad28)">
+      <node ref="U1" pin="28" pinfunction="~{RESET}" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
