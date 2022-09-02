@@ -1,7 +1,8 @@
 (footprint "TACTILE_SWITCH_PTH_6.0MM" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (descr "<h3>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square</h3>\n<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>\n<p><a href=\"https://www.omron.com/ecb/products/pdf/en-b3f.pdf\">Datasheet</a> (B3F-1000)</p>")
+  (descr "Pushbutton - SPST - PTH, 6.0mm Square")
+  (attr through_hole)
   (fp_text reference "REF**" (at 0 -3.302) (layer "F.SilkS")
     (effects (font (size 0.48768 0.48768) (thickness 0.12192)) (justify bottom))
     (tstamp 0ac9dd89-8bf0-4c64-8e5e-e92712562b7d)
@@ -38,9 +39,9 @@
     (solder_mask_margin 0.1016) (tstamp 98414b69-bf8f-4a4c-bf08-a1290d8b6ea8))
   (pad "4" thru_hole circle (at 3.2512 2.2606) (size 2 2) (drill 1) (layers *.Cu *.Mask)
     (solder_mask_margin 0.1016) (tstamp efb69600-999a-4814-a69f-3ba74e358191))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H5mm.step"
-    (offset (xyz -3 2.25 0))
+  (model "${KIPRJMOD}/../libraries/3D-models/buttons-switches/CUI_DEVICES_TS02-66-60-BK-260-SCR-D.step"
+    (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
