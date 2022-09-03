@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/mainboard/mainboard.kicad_sch</source>
-    <date>Fri 02 Sep 2022 10:02:35 BST</date>
+    <date>Sat 03 Sep 2022 10:53:19 BST</date>
     <tool>Eeschema 6.0.7-f9a2dced07~116~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -84,7 +84,7 @@
     </comp>
     <comp ref="H1">
       <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <footprint>ukmarsbot:MountingHole_3.2mm_M3_clearance</footprint>
       <fields>
         <field name="Note">Check finished size is M3 (3.2mm)</field>
       </fields>
@@ -97,7 +97,7 @@
     </comp>
     <comp ref="H2">
       <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <footprint>ukmarsbot:MountingHole_3.2mm_M3_clearance</footprint>
       <fields>
         <field name="Note">Check finished size is M3 (3.2mm)</field>
       </fields>
@@ -110,7 +110,7 @@
     </comp>
     <comp ref="H3">
       <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <footprint>ukmarsbot:MountingHole_3.2mm_M3_clearance</footprint>
       <fields>
         <field name="Note">Check finished size is M3 (3.2mm)</field>
       </fields>
@@ -123,7 +123,7 @@
     </comp>
     <comp ref="H4">
       <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <footprint>ukmarsbot:MountingHole_3.2mm_M3_clearance</footprint>
       <fields>
         <field name="Note">Check finished size is M3 (3.2mm)</field>
       </fields>
@@ -136,7 +136,7 @@
     </comp>
     <comp ref="H5">
       <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <footprint>ukmarsbot:MountingHole_3.2mm_M3_clearance</footprint>
       <fields>
         <field name="Note">Check finished size is M3 (3.2mm)</field>
       </fields>
@@ -149,7 +149,7 @@
     </comp>
     <comp ref="H6">
       <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <footprint>ukmarsbot:MountingHole_3.2mm_M3_clearance</footprint>
       <fields>
         <field name="Note">Check finished size is M3 (3.2mm)</field>
       </fields>
@@ -393,12 +393,15 @@
     </comp>
     <comp ref="S1">
       <value>sub-miniature, SPDT</value>
-      <footprint>ukmarsbot:SW_1101M2S3CQE2</footprint>
+      <footprint>ukmarsbot:SW_MINI_SPDT_TOGGLE_DAILYWELL_FS1S102M2QES</footprint>
+      <datasheet>https://static.rapidonline.com/pdf/560602t_v1.pdf</datasheet>
       <fields>
-        <field name="Note">Toggle or slide, 0.1" pitch pins</field>
+        <field name="Note">Toggle or slide, 0.1" pitch pins, EG Salecom TS-4-TE1CR-E-H-Z03</field>
+        <field name="Vendor">https://www.rapidonline.com/salecom-ts-4-te1cr-e-h-z03-spdt-sub-min-vertical-pcb-toggle-switch-75-0238</field>
       </fields>
       <libsource lib="ukmarsbot" part="SWITCH-SPDT-PTH-11.6X4.0MM" description=""/>
-      <property name="Note" value="Toggle or slide, 0.1&quot; pitch pins"/>
+      <property name="Note" value="Toggle or slide, 0.1&quot; pitch pins, EG Salecom TS-4-TE1CR-E-H-Z03"/>
+      <property name="Vendor" value="https://www.rapidonline.com/salecom-ts-4-te1cr-e-h-z03-spdt-sub-min-vertical-pcb-toggle-switch-75-0238"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="mainboard.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -793,7 +796,7 @@
       <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
     </library>
     <library logical="ukmarsbot">
-      <uri>${KIPRJMOD}/../libraries/ukmarsbot.kicad_sym</uri>
+      <uri>/home/peter/sdrive/micromouse/UKMARS/ukmarsbot-github/ecad/kicad/mainboard/../libraries/ukmarsbot.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

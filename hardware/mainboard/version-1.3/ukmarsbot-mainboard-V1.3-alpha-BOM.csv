@@ -17,7 +17,7 @@
 "R5","1k0",1,"any type, but small, 0.2"" span","","","~"
 "R6","470",1,"any type, but small, 0.2"" span","","","~"
 "R7, R8","15k",2,"any type, but small, 0.2"" span","","","~"
-"S1","sub-miniature, SPDT",1,"Toggle or slide, 0.1"" pitch pins","","",""
+"S1","sub-miniature, SPDT",1,"Toggle or slide, 0.1"" pitch pins, EG Salecom TS-4-TE1CR-E-H-Z03","","https://www.rapidonline.com/salecom-ts-4-te1cr-e-h-z03-spdt-sub-min-vertical-pcb-toggle-switch-75-0238","https://static.rapidonline.com/pdf/560602t_v1.pdf"
 "S2","BUTTON",1,"Check orientation","","",""
 "S3","DIP-SW",1,"Check orientation. On is towards front","","",""
 "U1","Arduino_Nano",1,"","","","https://store.arduino.cc/usa/arduino-nano"
