@@ -2830,6 +2830,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 50679f8b-6d17-45a7-be3f-30dc0731258d)
   )
+  (text "S1 is a sub-miniature slide or\ntoggle switch having pins on a \n0.1\" pitch.\nSuitable parts include:\n  Salecom H251A-Q\n  Salecom TS-4S or TS-4AS\n  Salecom TS-4-TE1\n  Taiway 200MSP1T2B2M2RE"
+    (at 214.63 58.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 50f63c96-8dda-4cf2-b34f-83062c618b4d)
+  )
   (text "D6" (at 38.1 90.17 180)
     (effects (font (size 1.016 1.016)) (justify left bottom))
     (uuid 65535acb-2617-4d33-8747-5a17f8b2a1e6)
@@ -4356,7 +4361,7 @@
     (property "Value" "sub-miniature, SPDT" (id 1) (at 228.346 37.592 0)
       (effects (font (size 1.778 1.778)) (justify top))
     )
-    (property "Footprint" "ukmarsbot:SW_MINI_SPDT_TOGGLE_DAILYWELL_FS1S102M2QES" (id 2) (at 227.33 34.29 0)
+    (property "Footprint" "ukmarsbot:SW_MINI-SPDT-RTECH-78-0564" (id 2) (at 227.33 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://static.rapidonline.com/pdf/560602t_v1.pdf" (id 3) (at 227.33 34.29 0)
@@ -4665,7 +4670,7 @@
       (reference "R11") (unit 1) (value "4k7") (footprint "ukmarsbot:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_BIGPAD")
     )
     (path "/e3713f85-2a22-40fc-8498-9a1d5ba496c5"
-      (reference "S1") (unit 1) (value "sub-miniature, SPDT") (footprint "ukmarsbot:SW_MINI_SPDT_TOGGLE_DAILYWELL_FS1S102M2QES")
+      (reference "S1") (unit 1) (value "sub-miniature, SPDT") (footprint "ukmarsbot:SW_MINI-SPDT-RTECH-78-0564")
     )
     (path "/d0feb225-71a8-4533-9b0a-f0eabf97a0e5"
       (reference "S2") (unit 1) (value "BUTTON") (footprint "ukmarsbot:TACTILE_SWITCH_PTH_6.0MM")
