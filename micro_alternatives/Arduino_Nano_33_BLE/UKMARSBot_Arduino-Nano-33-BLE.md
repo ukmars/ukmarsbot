@@ -23,8 +23,9 @@ In terms of software environments, this can run:
    not avaialable yet. 
 
 The IMU is connected via I2C, which *might* make it harder for the the IMU 
-to be used for any real-time control. Of course, you can log the data and use it 
-for analytics after runs - perhaps by plotting on a spreadsheet.
+to be used for any real-time control - but not impossible. Of course, 
+you can log the data and use it for analytics after runs - perhaps by plotting 
+on a spreadsheet.
 
 Without changes, the Arduino Nano 33 BLE does not supply 5v (there is a link you 
 can short to connect the USB supply - but don't do this!). We will run the 
@@ -222,15 +223,11 @@ Nano 33 BLE also has 8 channels. This table shows the arrangement.
 |  A1 | Line Left Side Sensor   | Front Wall Sensor      | Wall Sensor            |           |
 |  A2 | Line Right Side Sensor  | Right Wall Sensor      | Wall Sensor            |           |
 |  A3 | Start/Finish Mark Sensor| (not used)             | Wall Sensor            |           |
-|  A4 | (not used)              | (not used)             | (not used)             | Pull-ups! |
-|  A5 | (not used)              | (not used)             | (not used)             | Pull-ups! |
+|  A4 | (not used)              | (not used)             | (not used)             |           |
+|  A5 | (not used)              | (not used)             | (not used)             |           |
 |  A6 | Function Sw. / Button   | Function / Button      | Function Sw. / Button  |           |
 |  A7 | Battery Voltage sense   | Battery Voltage sense  | Battery Voltage sense  |           |
 
-Note: A4 and A5 have 4k7 pull up resistors to allow them to be used with I2C devices. Be careful
-when using these ADC channels. 
-
-Adrian E. reported that in Micropython that ADC doesn’t work on A6; hopefully this will get fixed soon. It seems fine in the Arduino environment in C/C++.
 
 ## Software Notes
 

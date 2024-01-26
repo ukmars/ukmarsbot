@@ -29,3 +29,10 @@ fp-info-cache
 *-cache.lib
 *-rescue.lib
 *.kicad_prl
+
+# Folder to keep notes in that doesn't get checked
+ignore_this/
+
+# Ignore Mac specific files
+.DS_Store
+

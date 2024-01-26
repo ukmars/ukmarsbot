@@ -7,7 +7,10 @@ Written up by Rob Probin, August 2023, based on original notes by David Hannafor
 ## Introduction
 
 The Cytron Maker Nano RP2040 is a cheap alternative to the Arduino Nano, with 
-the much more powerful RP2040 microcontroller - the same micro used on the Raspberry Pi Pico. 
+the much more powerful RP2040 microcontroller - the same micro used on the 
+Raspberry Pi Pico. It has on on-board Piezo buffer, 2MB of flash, two RGB LEDs,
+and a user button. It also has LEDs on quite a few of the GPIO (inputs and
+output pins) which can aid in debugging.
 
 This can run:
  - in the Arduino environment, 

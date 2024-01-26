@@ -27,8 +27,9 @@ to the U-blox® Nina W102 processor, which potentially slows access for these
 channels (to be confirmed).
 
 The IMU is connected via I2C which *might* make it harder for the the IMU 
-to be used for any real-time control. Of course, you can log the data and use it 
-for analytics after runs - perhaps by plotting on a spreadsheet.
+to be used for any real-time control - but not impossible. Of course, you can 
+log the data and use it for analytics after runs - perhaps by plotting on a 
+spreadsheet.
 
 Without changes, the Arduino Nano RP2040 does not supply 5v (there is a link you 
 can short to connect the USB supply - but don't do this!). We will run the 
@@ -234,12 +235,22 @@ IMU and the authenicator secure element IC. So the ADC A4/A5 pin interacts with 
 
 https://support.arduino.cc/hc/en-us/articles/7454007471004-About-the-analog-pins-on-Nano-RP2040-Connect
 
-Adrian E. reported that in Micropython that ADC doesn’t work on A6 or A7; hopefully this will get fixed soon. It seems fine in the Arduino environment. 
+### ADC Inputs A4-A7 and Micropython 
 
-There is some example code for Micropython that talks to the NINA chip directly here:
+The latest versions of Micropython do allow use of these pins, although
+they are much slower than the RP2040 on-board ADC channels (A0-A3) - and take 
+about 2ms to read. Originally Adrian E. reported that in Micropython that the 
+ADC didn’t work on  A6 or A7 - which is still true for older versions of 
+Micropython.
+
+NOTE: Reading A4-A7 seems fine in the C/C++ Arduino environment - although they 
+will be slower than A0-A3.
+
+If you do run into problems, you can talk directly to the NINA chip from the 
+RP2040 as follows:
+ * There is some example code for Micropython that talks to the NINA chip directly here:
     https://github.com/robzed/UKMARSbot_RPi_Pico_Adapter/blob/master/Arduino_Nano_RP2040_Connect/NINA.py
-
-And the similar in Zeptoforth:
+ * And the similar in Zeptoforth:
     https://github.com/robzed/ukmarsbot_forth/blob/master/for_rp2040/WiFiNINA_gpio.fth
 
 
@@ -377,7 +388,7 @@ document however.
 This has the advantage of leaving GPIO18 (Arduino 'D6') as spare for other
 purposes. If you use this GPIO18/'D6' on a custom sensor board, for example,
 then you'd want to avoid reassigning it - and this method would be the
-best option - asuming you aren't using all the PIO units for other purposes.
+best option - assuming you aren't using all the PIO units for other purposes.
 
 
 ### Option 3: Use the second core to generate a PWM waveform
@@ -393,6 +404,11 @@ This board does not have a BOOTSEL button - just a reset button. To reprogram
 via a UF2 file drag-and-drop over USB as a mass-storage flash drive (like a 
 normal Rapsberry Pi Pico) it's necessary to short two pins (labelled GND and 
 REC on the underside - the second and third pins) and press the reset button.
+
+You might wish to install a jumper, a button or a switch between these two pins.
+
+Remember to remove the jumper/short between REC and GND pins BEFORE you upload
+the new firmware.
 
 Picture and Instructions can be found here:
 
