@@ -1,6 +1,6 @@
 "Ref","Value","Qty","Note","Package","Vendor","Datasheet"
 "C1, C2","330uF, 16V",2,"","","","~"
-"D1, D2, D3, D4","SFH4550",4,"Ultra-bright red alternative but detectors must match","","","~"
+"D1, D2, D3, D4","SFH4545",4,"Ultra-bright red alternative but detectors must match","","","~"
 "D5","LED",1,"Any small LED","","","~"
 "H1, H2","3.2mm",2,"","","","~"
 "J1","Conn_01x14",1,"14 way, 0.1"" header chack polarity with mainboard","","","~"
