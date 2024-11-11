@@ -13,3 +13,5 @@ The Cytron Maker Nano RP2040 is a 3.3V device, so if you are using it instead of
 This board just has 3 LEDs and 4 transistors and uses only 1 transistor to drive the LEDs. Because it runs at 3.3V the LED resistors have been reduced from 68 to 33 ohms. The side sensors now feed in to A0 and A3 and the 2 central line sensors feed in to A1 and A2. The full set of build instructions for populating the board can be found at https://www.davidhannaford.com/kes2025/kes2025linesensor.pdf
 
 There is also a copy in this directory.
+
+You can find the KiCad project in the ecad dirctory under [ecad/line-sensor-mini-kes](../line-sensor-mini-kes/)

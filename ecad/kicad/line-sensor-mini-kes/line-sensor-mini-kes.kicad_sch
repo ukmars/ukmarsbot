@@ -5,11 +5,12 @@
 	(uuid "d1a3a3be-5885-412a-b51f-52e0665f1cfe")
 	(paper "A4")
 	(title_block
-		(title "UKMARSBOT Line Sensor Mini")
+		(title "UKMARSBOT Line Sensor Mini Kes")
 		(date "2022-08-22")
 		(rev "1.0")
 		(company "UKMARS")
-		(comment 1 "Small line sensor for half size track")
+		(comment 1 "Small line sensor for Cytron Maker Nano ")
+		(comment 2 "David Hannaford")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized"

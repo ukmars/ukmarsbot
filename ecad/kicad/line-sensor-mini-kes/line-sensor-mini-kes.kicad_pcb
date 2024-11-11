@@ -11773,7 +11773,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "LINE SENSOR MINI"
+	(gr_text "LINE SENSOR MINI KES"
 		(at 140 125.5 90)
 		(layer "F.SilkS")
 		(uuid "2bcb2481-1ef7-453e-bd27-b7dd48171c22")
@@ -11888,7 +11888,7 @@
 		)
 	)
 	(gr_text "V1.0"
-		(at 140 114.5 90)
+		(at 140 111.76 90)
 		(layer "F.SilkS")
 		(uuid "5a98a6f7-efb0-4cc9-a095-e99f00e285ac")
 		(effects
