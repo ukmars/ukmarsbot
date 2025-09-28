@@ -62,6 +62,9 @@ putting more than 3v on the I/O pin.
 
 <img src="images/battery_divider.png" width="350" />
 
+Warning - this is valid for v1.0 and v1.1 board, but there is a change of resistor
+value for the v1.3 board - see assumptions below.
+
 There are two alternatives to reduce the battery voltage sense output:
 
 #### Battery Measurement Alternative 1:
@@ -82,6 +85,20 @@ This gives a similar effect to Alternative 1, but might be easier if you have
 already fitted the original resistors and don't want to remove R7 since
 desoldering and removing resistors can be more tricky if you are not used to 
 soldering practices.
+
+#### Assumptions 10K + 10K - not valid for v1.3 Board!
+
+NOTE: The schematic for UKMARSBot Mainboad version 1.0 and 1.1 has a 10K pull-up 
+and 10K pull-down. The information above assumes the 10K ohm resistor parts. 
+The schematic for version 1.3 has a 15K pull-up and 15K pull-down resistor. 
+
+If you've fitted 15K then with alternative 1 you will need a higher value than 
+22K ohms - maybe 30K ohms or 33K ohms. For alternative 2, the voltage would
+be lower - so this is safe although you'd lose a bit of resolution. You could 
+even get away with 10K as the parallel. 
+
+If you fitted other resistors, you'll need to calculate the maximum voltage - 
+which cannot exceed the microprocessor voltage, which in our case is 3.3v. 
 
 
 ### Step 3: Power the logic and sensors with 3.3v
